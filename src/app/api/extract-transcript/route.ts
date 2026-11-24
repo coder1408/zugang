@@ -16,7 +16,7 @@ export const runtime = "nodejs";
 export const maxDuration = 60;
 
 const MAX_FILES = 10;
-const MAX_TOTAL_PDF_BYTES = 20 * 1024 * 1024; // 20 MB combined across all uploaded semester PDFs
+const MAX_TOTAL_PDF_BYTES = Math.floor(4.5 * 1024 * 1024); // 4.5 MB combined (Vercel Hobby request cap)
 
 const BUCKET_VALUES = SubjectBucketEnum.options;
 
@@ -449,8 +449,11 @@ export async function POST(req: NextRequest) {
 
     if (totalBytes > MAX_TOTAL_PDF_BYTES) {
       return NextResponse.json(
-        { error: "Combined PDF size exceeds the 20 MB upload limit." },
-        { status: 400, headers: rateHeaders }
+        {
+          error:
+            "Combined PDF size exceeds the 4.5 MB upload limit. Compress large scanned PDFs before uploading.",
+        },
+        { status: 413, headers: rateHeaders }
       );
     }
 

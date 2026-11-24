@@ -24,6 +24,10 @@ interface Screen1UploadVerifyProps {
 }
 
 const BUCKET_OPTIONS = SubjectBucketEnum.options;
+const MAX_UPLOAD_FILES = 10;
+const MAX_UPLOAD_MB = 4.5;
+// Leave slight headroom under Vercel's 4.5 MB serverless body cap for multipart headers
+const MAX_UPLOAD_BYTES = Math.floor(4.4 * 1024 * 1024);
 
 const SHORT_BUCKET_LABELS: Record<SubjectBucket, string> = {
   MATH: "Mathematics",
@@ -102,6 +106,22 @@ export function Screen1UploadVerify({
     const files = Array.from(fileList).filter((f) => f.size > 0);
     if (files.length === 0) return;
 
+    if (files.length > MAX_UPLOAD_FILES) {
+      setUploadError(`You can upload at most ${MAX_UPLOAD_FILES} PDF files at once.`);
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
+    const totalBytes = files.reduce((sum, f) => sum + f.size, 0);
+    if (totalBytes > MAX_UPLOAD_BYTES) {
+      const sizeMb = (totalBytes / (1024 * 1024)).toFixed(1);
+      setUploadError(
+        `Combined file size is ${sizeMb} MB — maximum is ${MAX_UPLOAD_MB} MB. Compress scanned PDFs before uploading.`
+      );
+      if (fileInputRef.current) fileInputRef.current.value = "";
+      return;
+    }
+
     setUploadError(null);
     setIsExtracting(true);
     setExtractingFileCount(files.length);
@@ -111,7 +131,12 @@ export function Screen1UploadVerify({
         fd.append("files", f);
       }
       const res = await fetch("/api/extract-transcript", { method: "POST", body: fd });
-      const json = await res.json();
+      if (res.status === 413) {
+        throw new Error(
+          `Upload exceeds the ${MAX_UPLOAD_MB} MB limit. Compress your scanned PDFs and try again.`
+        );
+      }
+      const json = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(json.error || `Extraction failed (${res.status})`);
 
       const hints = json.profileHints || {};
@@ -281,7 +306,7 @@ export function Screen1UploadVerify({
               >
                 choose files
               </button>{" "}
-              · up to 10 PDFs, 20 MB combined
+              · up to {MAX_UPLOAD_FILES} PDFs, {MAX_UPLOAD_MB} MB combined
             </p>
           </div>
         )}

@@ -17,7 +17,7 @@ Zugang checks Indian engineering transcripts against the published admission reg
 
 ## Key Features
 
-- **Multi-PDF & Percentage Scale Support**: Upload a consolidated transcript PDF or up to 10 separate semester marksheets; supports both 10-point CGPA (`4.0`–`5.0` pass floor range) and 100-point percentage marksheets (`40%`–`50%` pass floor range), plus an offline **Sample B.Tech. CSE Transcript** mode requiring no API key.
+- **Multi-PDF & Percentage Scale Support**: Upload a consolidated transcript PDF or up to 10 separate semester marksheets (4.5 MB combined); supports both 10-point CGPA (`4.0`–`5.0` pass floor range) and 100-point percentage marksheets (`40%`–`50%` pass floor range), plus an offline **Sample B.Tech. CSE Transcript** mode requiring no API key.
 - **Deterministic Engine (`src/lib/engine/`)**:
   - **ECTS Multipliers**: Computes both 4-year standard (`240 / total`) and 3-year conservative (`180 / total`) conversion factors.
   - **Modified Bavarian Formula**: `N_d = 1 + 3 × ((N_max − N_actual) / (N_max − N_min))`, **truncated** (never rounded) to 1 and 2 decimal places, with Optimistic vs. Conservative range when the home university's degree-award pass floor is ambiguous.
