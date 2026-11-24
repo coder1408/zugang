@@ -13,6 +13,7 @@ import { extractClientIp, transcriptExtractLimiter } from "@/lib/rateLimit";
 dns.setDefaultResultOrder("ipv4first");
 
 export const runtime = "nodejs";
+export const maxDuration = 60;
 
 const MAX_FILES = 10;
 const MAX_TOTAL_PDF_BYTES = 20 * 1024 * 1024; // 20 MB combined across all uploaded semester PDFs
