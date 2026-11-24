@@ -1,0 +1,17 @@
+ Admission requirements
+
+As for every other master’s degree program at TU Berlin, applicants to the Computer Science (Informatik) master’s program must possess a first university degree qualifying them for professional work. For the Computer Science program this should be a first university degree qualifying you for professional work taken in a subject within the field of computer science or a closely related program. The minimum requirements are that a program contains the following elements:
+
+A total of 36 credit points in the fundamentals of computer science, with
+
+    12 credit points in theoretical computer science,
+    12 credit points in computer engineering or information technology,
+    12 credit points in methodological-practical computer science.
+
+18 credit points in mathematics, with a minimum of 30 further credit points in computer science. The bachelor’s thesis may not be used to make up these 30 credit points.
+
+Full details, including the subject-specific and language level requirements which you need to prove when applying, are available in the application regulations.
+
+The master’s program is taught in English. Applicants are therefore required to provide proof of English skills at CEFR level B2. Please see here for a list of accepted proofs and certificates.
+
+You can also find important information on the admission requirements on the program's website.

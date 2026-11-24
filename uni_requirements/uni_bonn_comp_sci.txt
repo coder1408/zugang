@@ -1,0 +1,356 @@
+
+
+Universität Bonn
+
+Institute of Computer Science
+
+    de en 
+
+Institut für Informatik
+
+    News Research Studies Institute More Intranet
+
+You are here:
+
+    Computer Science
+    Studies
+    Master Programs
+    Application for the Master's program
+
+Application for the Master's Program
+
+How and when can I apply for the Master's program in Artificial Intelligence, Computer Science or Cyber Security?
+
+    Required prior knowledge and skills
+    Quick guide: Are you eligible?
+    Estimating your chances for admission
+    Formal prerequisites
+    When to get your visa
+    How to apply
+    Selection and admission
+    Contact
+
+This page explains the admission criteria and application procedures for the Master of Science programs in Artificial Intelligence, Computer Science and Cyber Security. The application procedure for the Master of Science in Mobile Robotics is explained on its own website at the Institute of Geodesy and Geoinformation. The application procedure for the Master of Education (teaching degree) is explained on the website of the Bonner Zentrum für Lehrerbildung.
+Required Prior Knowledge and Skills
+
+Our master's degree programs are consecutive degree programs. They build on the curricula of our German-language bachelor's degree programs. We expect all applicants to have a sound knowledge of the compulsory subjects of the corresponding bachelor's degree program (Informatik or Cyber Security). In particular, the following prior knowledge is required to successfully complete our master's programs:
+Algorithmic knowledge and analysis skills
+
+For our Artificial Intelligence and Computer Science programs, the content of, for example, "Introduction to Algorithms" by Cormen, Leiserson, Rivest and Stein is absolutely essential. For the Cyber Security program, about half of it is.
+Software development skills
+
+You should be able to design reasonably large software in any one object-oriented language (for example, C++ or Java), know how to use basic tools such as IDEs (for example, Eclipse) and versioning systems (for example, SVN).
+IT Security knowledge and analysis skills
+
+For our Master's degree program in Cyber Security, you should be able to evaluate technical and organisational aspects of IT systems as well as assess the human-friendly, secure operation of such systems.
+Mathematical skills
+
+You should have solid foundations in calculus, linear algebra and probability. New students are advised to study the relevant lectures at the MIT OpenCourseWare.
+Literature research and writing skills
+
+You should know how to find scientific literature, know how to tell reliable sources from unrealiable sources, know what standards scientific reports (as opposed to, say, executive summaries) should adhere to, and know how to write a well-structured text of more than a couple of pages.  
+
+If some of this material is new to you, you may need to read up. If much of this material is new to you, it might become hard to succeed in our Master's programms.
+Quick Guide: Are You Eligible?
+
+To be admitted to the Master's degree program in Artificial Intelligence, Computer Science or Cyber Security, you must fulfil a number of requirements. It is often difficult to check these yourself. Below we have collected tips for common categories of applicants. Please click on everything that applies to you. Note that all of our Master's programs have a selection procedure. Even if you fulfil all requirements, we cannot guarantee that you are admitted.
+
+Do you have or will you have:
+a BSc Informatik from the University of Bonn?
+a BSc or BA Informatik (Lehramt) from the University of Bonn?
+a BSc Cyber Security from the University of Bonn?
+a BSc Economics and Computer Science from the University of Bonn?
+a BSc Mathematik from the University of Bonn?
+a BSc/BTech in Computer‌/‌Electrical‌/‌Information‌/‌Mechanical‌/‌Software Engineering‌/‌Science‌/‌Technology from another university?
+
+Do you want to be admitted to the Master's degree program in Artificial Intelligence or Computer Science? Then you should check your transcript to see if you have a module whose name includes "Theoretical Computer Science", "Theory of Computation", "Automata", "Languages and Machines", "Computational Complexity", "Quantum Computing" or "Advanced(!) Algorithms". If this is the case, then that is a good start. For applicants without any such module on their transcript, experience shows that the probability of being admitted to the Master's program in Computer Science is around 0.00, because they usually do not have enough previous training in Theoretical Computer Science.
+
+Do you want to be admitted to the Master's degree program in Cyber Security? Then you should check your transcript to see if you have at least three modules specifically on topics of IT Security. If this is the case, then that is not always enough, but it is at least a good start. If you do not have at least three modules on IT Security, your chances of being admitted are practically zero.
+a BSc (Applied) Mathematics from another university?
+a Bachelor's of Computer Application?
+a Bachelor's degree from Bangladesh, India, Nepal, Pakistan or Afghanistan?
+
+More than 99 percent of applicants from these countries are rejected because the curricula of their degree programs or their theses do not meet our requirements.
+a software design as a graduation project?
+
+You can only be admitted if you have written a scientific thesis during your bachelor's degree program. It could be a manuscript that presents a software design in a scientific context or that uses the software to answer a scientific question. However, the mere documentation of a software design is not sufficient.
+lots of experience in business and industry?
+
+To decide whether you are eligible, we look at your formal education. Your experience in business and industry does not have any effect on your eligibility.
+admission to another Master's programme of the University of Bonn?
+Estimating your chances for admission
+
+Below is some information about how selective admission for the winter semester 2026/2027 was. It all depends a lot on whether you have citizenship, a Bachelor's degree or a previous Master's degree from inside the European Economic Area (the EEA, that is the EU plus Iceland, Liechtenstein and Norway) or whether you are from outside the EEA. Legally, we can only admit few applicants from outside the EEA when we have barely enough places for applicants from within the EEA. As a result, admission for non-EEA applicants has become much more selective than it used to be until just one year before. To find out more, please click on the programs below.
+The Computer Science program
+
+EEA applicants: For the winter semester 2026/2027, about 20% of the applicants from within the EEA were found to be not eligible because they did not have enough credits in the theory of algorithms, complexity and formal languages. About 10% were not eligible for other reasons. The remaining applicants from within the EEA were all admitted, but there were no places left. If demand increases further, we will not be able to accept all eligible EEA applicants anymore and we must become more selective.
+
+Non-EEA applicants: Many applicants from outside the EEA were rejected because their Bachelor's theses did not meet the requirements, and a substantial number were rejected because they did not submit an accepted proof of sufficient English proficiency. Please have a careful look at the requirements as stated on this page under "How to Apply". From the remaining non-EEA applicants for the computer science programme, we admitted roughly the top 1% (one percent). Each of them was the top candidate from their country; no two of them came from the same country. In their Bachelor's studies, the applicants that were admitted had completed additional modules in algorithms and complexity theory, graphics, vision or audio, as well as additional modules in mathematics, beyond the minimum requirements for admission as stated on this page, and with (very) good grades. Applicants from outside the EEA who only fulfilled the minimum requirements in these areas did not make it through the selection process. 
+The Cyber Security program
+The Artificial Intelligence program
+Formal Prerequisites
+
+For admission to the Master's degree program in Artificial Intelligence, Computer Science or Cyber Security, you must fulfil all of the following formal requirements.
+Bachelor's degree
+
+You must have a degree in Computer Science or a related subject that is recognized in Germany as at least equivalent to a bachelor's degree. Related subjects are, for example, cybersecurity, mathematics or business informatics. Subject areas such as physics, electronics, geoinformatics or digital linguistics can also be considered related, depending on how much computer science and mathematics is included in the degree program.
+
+However, a Bachelor's degree in Computer Science is not automatically sufficient. The other requirements on the content of your prior education must also be fulfilled.
+Mathematical foundations
+
+You must have earned at least 18 ECTS credit points (equivalent to 0.6 semesters) in modules on, for example, logic, discrete structures, linear algebra, analysis, numerics, stochastics or geometry.
+Foundations of Algorithm Theory, Complexity Theory and Formal Languages
+
+You must have earned a certain minimum number of credits in Algorithm Theory, Complexity Theory and Formal Languages. For admission to the Master's programs in Artificial Intelligence or Computer Science, you need 14 ECTS (almost 0.5 semesters); for admission to the Master's program in Cyber Security, you need 9 ECTS (0.3 semesters). This requirement refers to modules that teach theoretical foundations, including topics such as algorithms and data structures (but not programming), automata theory, graph theory, computability and computational complexity. Exercises or labs that accompany lectures count towards this requirement, but practica, internships, theses, and graduation projects do not count.
+Foundations of IT Security
+
+For admission to the Master's program in Cyber Security, you must have earned at least 24 ECTS credit points (0.8 semesters) in modules in foundations of IT security and human-computer interaction. This requirement refers to modules that focus on IT security and teach theoretical foundations. Courses that focus on another topic and cover security aspects as a minor topic do not count. Exercises or labs that accompany lectures on IT security count towards the requirement, but practica, internships, theses, and graduation projects do not count. This requirement only applies to admission to the Master's program in Cyber Security; it does not apply to admission to the Master's programs in Artificial Intelligence and Computer Science.
+Programming, Software Technology and Information Systems
+
+You must have earned a certain mimimum number of credits in programming, software technology and information systems. For admission to the Master's programs in Computer Science and Cyber Security, you need 18 ECTS (0.6 semesters); for admission to the Master's program in Artificial Intelligence, you need 20 ECTS (2/3 of a semester). This requirement refers to modules that specifically teach these topics. Internships, theses and graduation projects do not count. This category also includes modules on artificial intelligence and graphics, but it does not include modules that belong to the categories described above or that deal with hardware and operating systems.
+Bachelor's thesis
+
+You must have written a scientific thesis worth at least 12 ECTS (0.4 semester)* that meets the standards of the Bachelor programs of the Institute of Computer Science of the University of Bonn. The thesis must discuss a scientific question within the context of the scientific literature and answer it in a scientific manner. The manuscript should fulfil the usual formal requirements for scientific publications and generally contain at least 750 lines of text. Program code, input, output, bullet point lists and tables do not count as text. The topic of the work does not have to be from computer science, it may also come from areas outside of computer science. 
+
+*When converting credits of other countries' education systems to ECTS, we may apply a different (more generous) conversion factor for graduation projects than for regular courses, as appropriate for the respective country's education system.
+Language proficiency
+
+You must have a command of English at level C1 or higher of the Common European Framework of Reference for Languages (CEFR). Further down on this page we explain how you should prove this. You do not need to know German. 
+When to get your visa
+
+If you need a visa to enter Germany and study here, you should find out about the waiting times for visa appointments before you apply to our master's program. Once you are notified by us that you are admitted, there are only few months left until the start of the semester. You should probably try to get a visa appointment as early as possible.
+How to Apply
+
+If you would like to apply for one of our Master's degree programs, you must upload your application documents to our application portal by the deadline.
+
+Our degree programs are only visible in the application portal when application is currently open, at least for certain groups of applicants. As the application deadlines depend on your personal situation, the portal cannot tell you which deadlines apply to you. It is therefore possible that the application portal is still accepting applications while your personal application deadline has already passed and your application can no longer be considered. Please always check our deadlines page to find out which deadlines apply to you before completing the form in the portal.
+
+Note that if you want to be considered for two or three of our Master's programs to increase your chances for admission, you must submit a separate application for each program. To make your and our life easier, the contents of your application for the first program are automatically synchronised with your applications for the other programs. Nevertheless, you must still submit each application separately.
+
+Below you can read which documents you need to upload with your application. All documents have to be submitted by the deadline, unless explicitly indicated otherwise. If you have technical problems with the application portal, you can contact the helpdesk at appsupport@ticket.uni-bonn.de. If you have any questions about the content of the application form, you can contact the admissions office at application@informatik.uni-bonn.de.
+How to fill out the form
+
+When completing the online application form in the application portal, please always use the grade and credit point system from the transcript of records issued to you by your university. Do not convert your foreign grades and credit points into German grades and credit points!
+
+Please enter the date of the last examination as the (expected) completion date of your bachelor's degree program. Do not enter the date on which your degree certificate is awarded (which is often much later). So usually, you should enter the date on which you submit(ted) your bachelor's thesis or the date on which you give or gave the final presentation.
+Documents about citizenship
+
+In the selection procedure, there are different quota for German/EU/EEA students and foreign students. Therefore we must decide to which group you belong. In most cases, we do not need additional documents. Everybody with a Bachelor's (or higher) from Germany or another EEA member state counts as German in the selection procedure. In the absence of any additional documents, you will be counted as a foreigner. If you are to be counted as a German/EEA student but you do/will not have a Bachelor's (or a Master's) from Germany/EEA, you must submit additional proof, depending on your situation:
+
+    proof that you are a citizen of an EEA member state (the EEA consists of the EU, Iceland, Liechtenstein and Norway), or
+    Abiturzeugnis or European Baccalaureate, or
+    proof that you live in Germany and one of your parents is an EEA citizen who has worked in Germany
+    proof that you live in Germany and one of your family members is an EEA citizen who works in Germany
+
+Degree certificates / Proof of expected completion
+
+Please upload the degree certificates for all Bachelor's and Master's programs that you have completed. If you are almost done with the program, you must upload a proof of the expected completion date. If you are done but you have not received the final certificates yet, you must upload a provisional certificate. These documents should satisfy the following requirements.
+
+Provisional degree certificates: the certificate must state explicitly that you fulfill all requirements for obtaining your degree and the certificate must be issued by the examination office (or a higher office) that is responsible for checking these requirements within your university. A letter by your Bachelor's thesis advisor that you have succesfully defended your thesis is not enough. A transcript of records that shows that you have the required number of credit hours is not enough either, because we cannot verify that that is all you need. If your transcript of records does not contain your current GPA, then we recommend that you try to obtain a provisional degree certificate that certifies your GPA. To be eligible for our Master's programmes, you do not need a certified GPA, but a certified GPA can improve your ranking in the selection process.
+
+Proof of expected completion date: the document must certify that the examinations that you still need to pass (a Bachelor's thesis also counts as an examination) correpond to a study load of at most half a year of full-time studies, and that the opportunity to take all of these examinations before the start of the upcoming semester (that is, by 31 March or 30 September) exists. An assessment of the likelihood that you will actually pass these examinations is not required. The document must be issued by the examination office (or a higher office) that will decide when you have completed the programme. If your transcript of records does not contain your current GPA, then we recommend that you try to obtain a proof of the expected completion date that certifies your GPA. To be eligible for our Master's programmes, you do not need a certified GPA, but a certified GPA can improve your ranking in the selection process. If your transcript of records does not show the credits for your graduation project yet, your proof of expected completion date should state how many credits you will get for it when it is done.
+
+Please click here to download a form that your examination office could fill out to certify your expected completion date (but your examination office could also use their own format, as long as it satisfies our requirements).
+Transcripts of records
+
+Please submit up-to-date transcripts of records of all degree programs in which you are or were enrolled. If you are or were enrolled in a Master's degree program in Germany already and you did not complete that program (yet), your transcript of records shoud include all exams that you took in that program (passed and failed).
+APS certificate
+
+If you have completed your previous education in China, India or Vietnam, you will need a Certificate of Authenticity (Echtheitsbestätigung / APS certificate) of your documents issued by the German Academic Acknowledgement Bureau (Akademische Prüfstelle) in that country. Please see the German embassies' websites for details: Deutsche Botschaft China, Deutsche Botschaft Neu-Delhi or Deutsche Botschaft Hanoi.
+Complementary documents about your prior studies
+
+We can only interpret your transcript of records correctly if we understand its grading system, its credit hour system, and the contents of the relevant modules. Therefore we strongly recommend that you submit a diploma supplement that explains the grading and the credit hour system of your prior degrees, as well as a syllabus or a module handbook, provided by your university, that describes the contents of the relevant modules on your transcript. In the absence of such documents, we can only err on the negative side when we have any doubts about your application, especially if we are not familiar with your university yet.
+Curriculum Vitae
+
+Please include at least:
+
+    a list of all educational, professional and other activities that are relevant for your qualification for our Master's program in reverse chronological order (from now till the end of high school);
+    an overview of where you have been living (in which countries) for more than half a year within the past five years, in reverse chronological order (from now until five years ago).
+
+Thesis
+
+You must always upload your thesis in the original language.
+
+If the thesis is not ready yet and you will be the sole author, then we can instead accept a proposal or an incomplete version. The proposal or the incomplete version should at least describe the scientific questions you aim to answer in your thesis, describe the planned structure of your thesis, and discuss relevant scientific literature in detail in the way in which you will also be doing this in the final document.
+
+If you are completing your thesis at an university in Germany, you may submit a less detailed proposal (for example, just the title page). Nevertheless, we strongly recommend that you submit a detailed proposal---because a good thesis or a good proposal can give you an advantage in the selection procedure.
+Summary of the thesis
+
+If your thesis is not written in English, French, or German, you must upload a summary in English, written by yourself (no official translation). The summary should include at least the title page, define the scientific questions you answer in your thesis and discuss relevant scientific literature. In other words, your summary should contain most of the introduction, the related-work section and the bibliography of your thesis.
+Proof of English language proficiency
+
+If you completed (or are completing) your secondary education and your Bachelor's outside Europe, we can accept the following as proof of sufficient English language proficiency:
+
+    an IELTS Academic score of at least 7.0, valid until the start of the upcoming semester;
+    a TOEFL score of at least 5.0 (in the new scoring system) or at least 95 (in the old scoring system), valid until the start of the upcoming semester;
+    a Cambridge Advanced English certificate (or higher);
+    a PTE (Pearson's Test of English) score of at least 76, valid until the start of the upcoming semester;
+    an Oxford Test of English Advanced score of at least 141;
+    a LanguageCert Academic score of at least 75;
+    a TELC C1 certificate;
+    a UNIcert III certificate;
+    a TOLIMO score of at least 620, valid until the start of the upcoming semester (admission may require separate assessment of your English speaking skills, for example in an interview; we would contact you about this when your application reaches our shortlist for admission);
+    proof of at least three years of secondary or tertiary education in the education system of Australia, Canada, Ireland, New Zealand, the United Kingdom, or the United States of America.
+
+In all cases, please simply upload a scan of the certificate. Without a proof of sufficient English proficiency, your application will not be considered. Note that a proof of the language of instruction in your Bachelor's programme does not suffice. Even if your entire bachelor's degree program in, for example, Bangladesh, India, or Pakistan was in English, you must submit a TOEFL, IELTS or CAE certificate (or one of the others from the list).
+
+If you completed (or are completing) your secondary education or your Bachelor's in Europe, we recommend that you submit any certificates that you have and that say something about your English proficiency. We will then check if we can accept your certificates as a proof of sufficient English proficiency and contact you in case additional proof is necessary. 
+Motivation letter
+
+Please enter your letter of motivation in the corresponding text field in the online form (at most 4000 characters). Here is what we are looking for in your letter:
+
+    Please explain briefly why you took the educational and professional career steps as listed in your curriculum vitae and why coming to Bonn would be your next step. Understanding your story helps us to understand how all your documents in your application fit together. Due to the high number of applications, we usually do not have time for further enquiries. Therefore, if your application raises questions, your curriculum vitae and your motivation are the places where we will look for answers.
+
+    Considering our research areas and working groups, please name one or two of our researchers (professors, post-docs, etc.) whom you would eventually like to be your supervisors, and explain why. In case the Examination Board is unsure about your qualifications, this gives us a hint about which professors might be best able to appreciate your work and your ideas, so that we can ask them for their opinion.
+
+    If you already have a Master's degree from Germany, you should explain how another degree from us will, for example, enable you to take on a job that cannot be done by somebody who has only one of these degrees; enable you to expand your academic research; or facilitate your reentry on the job market after taking care of your family for some years. These are circumstances that can give you an advantage in the selection process by law (VergabeVO NRW, Anlage 1). Please try to provide documents that confirm your motivation.
+
+Further documents
+
+The following documents could help your application:
+
+    Your examiners' assessment of your Bachelor's thesis
+    Academic publications in international conferences or journals that have you as the most senior author
+    Certificates, reference letters or other documents that confirm the duration of your appointment, the number of hours per week, and the tasks that you accomplished as a software engineer (relevant for the Artificial Intelligence and Cyber Security programs) or as a tutor/instructor/lecturer (relevant for all programs).
+    Certificates or other documents that confirm other relevant achievements outside of your degree program, such as contributions to open-source projects, participation in hackathons or contests etc. (relevant for the Artificial Intelligence and Cyber Security programs)
+
+Translations
+
+You should fill out the form in English or in German.
+
+You can currently also submit degree certificates, transcripts of records, examiners' assessments of the thesis, module descriptions, confirmations of employment and other certificates in Afrikaans, Catalan, Danish, Dutch, English, French, German, Italian, Norwegian, Portuguese, Spanish or Swedish with your application. All other documents can be submitted in English, French or German. For documents in other languages, you have to submit the document in the original language and a translation into English, French or German by a certified translator or by your university.
+
+You should always submit the thesis in the original language. If that is not English, French or German, you should also submit a summary in English (see above).
+Not to be submitted!
+
+The following documents are not required and not helpful:
+
+    Proof of the language of instruction in your previous degree program. It will not be accepted as a proof of English language proficiency!
+    Letters of recommendation---unless they serve as a proof for the duration of your appointment, the number of hours per week, and the tasks that you accomplished as a software developer or as a tutor/instructor.
+
+Selection and Admission
+
+Here you can find out what happens after you have submitted your application.
+Selection procedure and timeline
+
+We first check to which group of applicants you belong (EU/EEA citizens, foreigners, applicants with a prior Master's degree etc.). Next we check whether you have applied within the deadline for your group. Then we check whether you fulfil the admission requirements for the chosen degree programs (possibly subject to completing the final stretch of your Bachelor's) and we compute your score according to the selection criteria for each of these programs (see below). This evaluation is carried out by the Examination Board of the Institute of Computer Science. 
+
+Finally, we rank all applicants that fulfil the admission criteria according to their scores. We make a separate ranking for each of our programs. As soon as we find that you are ranked high enough to be offered a spot on your preferred program, we will remove you from the list for your less preferred programs (in case you applied for them), because in the end, you cannot enrol in multiple of our Master's programmes at the same time.
+
+The whole process is essentially done in three rounds. Please check our page with application deadlines to see when you will hear whether your application has been accepted or rejected. It will be roughly as follows: In the fourth month before the start of the semester, a certain percentage of the places on our program are offered to the highest-ranked foreign students. Next, in the second month before the start of the semester, places are offered to the highest-ranked applicants from the EU/EEA and to the highest-ranked applicants for a second Master's degree. Third, if any places are left, we will offer them to further foreign students.
+Selection criteria
+
+The are various selection criteria. For each of them you can get between 0 and 10 points, which are multiplied with a weight factor that depends on the program you are applying for.
+
+For the Artificial Intelligence program, the ranking criteria, with weights in parentheses, are:
+
+    good GPA for your Bachelor's (2)
+    good grades for modules on computer graphics, vision, audio or sensing (1)
+    good grades for modules on artificial intelligence (1)
+    good grades for additional advanced modules on mathematics (2)
+    professional experience in software development (2)
+    academic manuscripts (thesis, publications) (3)
+    subject-related extracurricular activities (2)
+    subject-related experience in teaching (1)
+
+For the Computer Science program, the ranking criteria are:
+
+    good GPA for your Bachelor's (1)
+    good grades in additional advanced modules on algorithms theory or complexity theory (2)
+    good grades in modules on computer graphics, vision, audio or sensing (2)
+    good grades in modules on artificial intelligence (1)
+    good grades in additional advanced modules on mathematics (2)
+    academic manuscripts (thesis, publications) (1)
+    subject-related experience in teaching (1)
+
+For the Cyber Security program, the ranking criteria are:
+
+    good GPA for your Bachelor's (3)
+    good grades in additional advanced modules on IT security (3)
+    good grades in modules on artificial intelligence (2)
+    good grades in additional advanced modules on mathematics (2)
+    good grades in advanced modules on computer systems (2)
+    professional experience in software development (2)
+    academic manuscripts (thesis, publications) (1)
+    subject-related extracurricular activities (1)
+    subject-related experience in teaching (1)
+
+Note that only good grades (better than 2,5 in the German system) bring in any points, and only modules that go beyond the minimum requirements for the program are considered for points. More details about the ranking system can be found in the Examination Regulations. For applications for a second Master's degree in Germany, a different ranking system applies, based on the GPA for your first Master's and the motivation for your second Master's.
+Admission thresholds
+
+For the categories of applications, for which a selection procedure was carried out for admission to the winter semester 2026/2027, the minimum number of points with which applicants were admitted were as follows:
+
+    Applicants from outside the EEA for the Computer Science program: 46 points
+    Applicants from within the EEA, without a previous Master's from Germany, for the Cyber Security program: 4 points
+    Applicants from outside the EEA for the Cyber Security programme: 75 points
+
+Your status in the admissions portal
+
+Your application status in the application portal can be:
+
+    Received or In Progress: we have received your application. We may also have started processing it already. Each block or page of your application form may get a preliminary marker "correct" (a tick mark on a green dot) or "incorrect/insufficient" (a bar on a red dot) in the top right corner. If you see some of these markers appearing and/or if the status has changed to In Progress, this means that we are processing your application.
+    Excluded: your application is not considered further. There could be various reasons for this, for example:
+        You submitted your application after the deadline that is applicable in your case.
+        Required documents are missing.
+        You did not follow the instructions about how to fill out fields that are essential for us to be able to process thousands of applications efficiently.
+        You withdrew your application.
+        It was decided that you are not eligible.
+        We have not completely verified whether you are eligible, but if you would be eligible, you would still not have enough points to make it through the selection process.
+        You got admission for another programme of ours that is higher on your priority list.
+    Valid: you are eligible for the program, but we do not know if we can give you admission yet. If you still have this status more than two weeks after decisions were due and you have not heard from us, please feel free to ask us for an update.
+    Admission currently impossible: you are eligible for admission, but you did not make it through the selection process in the first round. If, after handling the applications from Europe, we still have some places left, we will see if we can give you admission after all.
+    Declined: you are eligible for the programme but you are not ranked high enough for admission, or you got admission for another programme of ours that is higher on your priority list.
+    Admission offered: you are offered admission. Once you get this status, you will receive your admission letter in the admissions portal within a couple of days. Note that admission may be conditional (see below). 
+
+Admission and enrolment
+
+Wenn all requirements have been met and a place is available for you, you will receive a letter of admission with further information on how to enrol.
+
+The letter of admission is only valid for the semester for which you have applied. If you cannot arrive in time to start your studies in this semester, you can secure your place on the programme by enrolling remotely already. Note, however, that we cannot offer sufficient options to take part in classes remotely, you cannot take exams remotely, and being enrolled comes with costs for health insurance and student services. Alternatively, you can reapply for the next semester (but please note that entry in the Artificial Intelligence program is not possible in the summer semester, unless you have completed some Master's modules already that can be transferred to the AI program for at least 15 ECTS credits). If you apply for the next semester, in general you will have to be ranked against the other applicants for the next semester then and therefore, we cannot predict whether you would be admitted again.
+
+If you cannot arrive in time because you cannot get an appointment for obtaining a visa on time, please keep us posted on your progress. We can then try to support you with advice on when to enrol, with letters to confirm your admission despite late arrival and/or with priority admission for the next semester as needed.
+Conditional admission
+
+Under certain circumstances It is possible to get admission before you meet all requirements---for example, it is possible to get admission before you have completed your Bachelor's. Note that in that case, you still have to make sure that you fulfil all requirements before the semester starts. So the conditional admission does not really give you more time to fulfil the requirements; it only gives you more time to prove that in hindsight. 
+
+If you enrol in our Master's programme with conditional admission, then you have to prove within four months after the start of the semester that you did in fact manage to fulfil all requirements before the start of the semester. For example, you would have to submit a final or provisional degree certificate with a graduation date that lies before the begining of the semester. If you do not provide the required certificate, you will be expelled from the Master's programme.
+
+Note that retroactive expulsion tends to cause more trouble than postponed enrolment. Therefore, if you get conditional admission and you find that you do not manage to fulfil all requirements before the start of the semester, please refrain from enrolling and contact us for advice on how to proceed.
+Start of studies
+
+Information for your arrival in Bonn and for the start of your studies can be found here.
+Contact
+
+For fast answers we recommend that you have a look at our frequently asked questions before contacting us.
+buero_profile.png
+© Unsplash
+
+Admissions office
+Manager: Dr. Herman Haverkort
+
+Your contact for matters around admission to our programmes.
+Mail
+buero_profile.png
+© Unsplash
+
+Technical helpdesk
+
+Your contact in case of technical problems with the application portal.
+Mail
+Quick start
+
+Useful links
+    Semester dates 
+    Examination office 
+    Equality 
+    Contact us 
+    Service 
+
+Further links
+    Basis 
+    eCampus 
+
+
+© Institut für Informatik der Rheinischen Friedrich-Wilhelms-Universität Bonn 2026
+Imprint Data Protection Accessibility
+

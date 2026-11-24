@@ -1,0 +1,35 @@
+
+Requirements and application
+Show all
+On what criteria are applicants selected?
+
+Admission to the international Master’s program in Machine Learning is not admission-restricted, but all students, including those holding a Bachelor’s degree in Computer Science, are requested to submit a formal application. However, you need to apply in order to establish whether you meet the general requirements.
+
+Application deadline for international (non-EU) citizens as well as German and EU citizens: 30 April
+
+Further information and answers to the most common questions can be found on the website of the Master's program and on the FAQ page.
+Which requirements must I meet for studies?
+
+A Bachelor's degree (or equivalent) in either computer science, mathematics, physics or related natural sciences with a grade of at least 2,0 according to the German grading system (German system: 1,0 is the best grade).
+In particular, skills in the following areas are required, which are equivalent in content and scope to those of the B.Sc. in Computer Science at the University of Tübingen: 
+
+    Mathematics: one- and multidimensional analysis, linear algebra, and either numerics or stochastics. The scope of lectures in the field of mathematics must correspond to at least 27 ECTS credits.
+    Computer science: programming, algorithms and data structures. The scope of lectures in computer science should correspond to at least 18 ECTS, of which at least 6 ECTS must be in the field of algorithms and data structures.
+
+Applicants must also provide adequate proof of English proficiency.
+
+Further information & FAQ regarding the admission requirements
+Which languages must I know?
+
+Courses are held in English. Applicants must provide adequate proof of English proficiency, documented by one of the following documents:
+
+    German Abitur including at least 6 (G8) or 7 years (G9) of English.
+    TOEFL iBT test with at least 100 points
+    IELTS test with overall score of at least 7.0
+    Cambridge Certificate in Advanced English (CAE) with at least 180 points
+    University entrance qualification obtained in the UK, Ireland, USA, Canada, Australia, or New Zealand
+
+Which other subjects can I combine with my main subject?
+
+The Machine Learning program cannot be complemented with a minor subject.
+

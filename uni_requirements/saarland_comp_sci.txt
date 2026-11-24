@@ -1,0 +1,14 @@
+Requirements
+
+In order to be admitted to the programme, students must have received a Bachelor's degree or equivalent qualification from a German or foreign university in informatics, computer science or a related field, or must provide proof of equivalent academic achievement, and must demonstrate advanced proficiency in English to complete the programme (C1, a MOI (Medium of Instruction) cannnot be accepted, see the FAQ for a list of accepted certificates). Specifically, they must also provide the following information and/or documents:
+
+    Proof of sufficient merit in their academic achievements in school and higher education
+    A letter of motivation or personal statement documenting the student's particular interest in the M.Sc. programme
+    Two relevant academic references
+    Details about relevant work/study periods abroad and relevant work experience or internships
+
+How to apply
+
+Students can begin the M.Sc. programme at the beginning of the summer or winter semester. Applications should normally be received by 15 May for students seeking to begin studying in the winter semester and by 15 November for students looking to start their studies in summer. Applicants who apply by May 15th for the following summer semester are expected to receive a letter of admission by mid-July if the respective Master's commission makes a positive decision. Applicants who apply by November 15th for the following winter semester are expected to receive a letter of admission by mid-February if the respective Master's commission makes a positive decision.
+
+Applications should be submitted via the online application portal managed by the Department of Computer Science where you'll find further information about application and admission procedures.

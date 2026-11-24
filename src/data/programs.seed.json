@@ -1,0 +1,2649 @@
+[
+  {
+    "id": "rwth-aachen-msc-data-science",
+    "university": "RWTH Aachen University",
+    "programName": "Data Science",
+    "degreeType": "M.Sc.",
+    "city": "Aachen",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 318,
+    "isNoNc": true,
+    "portal": {
+      "name": "RWTHonline",
+      "url": "https://online.rwth-aachen.de/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "March 1",
+      "summerDeadlineNonEu": "September 1",
+      "routingNotes": "Direct free application via RWTHonline (no uni-assist, no VPD). Official GRE score report must be uploaded by deadline (ETS institutional code: 8504). APS certificate mandatory for Indian degrees."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No fixed Numerus Clausus (NC) GPA cutoff; admission is strictly gated by curricular Math/Stochastics/CS equivalence and mandatory non-EU GRE thresholds."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 90,
+      "moiAccepted": false,
+      "moiNote": "RWTH Aachen strictly rejects Indian Medium of Instruction (MOI) certificates. An official IELTS (≥ 6.5) or TOEFL iBT (≥ 90) report is mandatory."
+    },
+    "testRule": {
+      "greRequired": true,
+      "dmatAccepted": false,
+      "minGreQuant": 161,
+      "minGreVerbal": 143,
+      "minGreAwa": 3.5,
+      "exemptBelowGermanGrade": null,
+      "note": "Mandatory for all Non-EU/EEA applicants: GRE Quantitative ≥ 75th percentile (~161), Verbal ≥ 15th percentile (~143), Analytical Writing ≥ 3.5. Hard cutoff — cannot be compensated by GPA."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 18,
+          "label": "Core Mathematics (Linear Algebra & Analysis)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "STOCHASTICS",
+          "minEcts": 9,
+          "label": "Stochastics, Probability & Statistics",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 18,
+          "label": "Programming, Algorithms & Data Science/ML",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 6,
+          "label": "Databases & Information Systems",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": []
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "Standard recognized Bachelor degree required; no separate standalone thesis-ECTS cliff beyond degree recognition."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Curricular Equivalence (Math, Stochastics, CS Foundations)",
+        "weightPercent": 60,
+        "note": "Strict non-overlapping check against RWTH B.Sc. Informatics/Math benchmark"
+      },
+      {
+        "criterion": "Mandatory GRE Threshold Verification (Non-EU)",
+        "weightPercent": 40,
+        "note": "Binary pass/fail gate: Q ≥ 75th pct, V ≥ 15th pct, AWA ≥ 3.5"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "RWTH Aachen M.Sc. Data Science Prüfungsordnung (PO 2020/2023)",
+      "paragraphRef": "§ 3(1)–(4) Zugangsvoraussetzungen & GRE-Nachweis",
+      "officialPdfUrl": "https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/Studiengaenge/Liste-Aktuelle-Studiengaenge/Studiengangbeschreibung/~dqge/Data-Science-M-Sc/?lidx=1",
+      "facultyEmail": "datascience@informatik.rwth-aachen.de",
+      "lastVerifiedDate": "2026-10-23"
+    }
+  },
+  {
+    "id": "tu-dresden-msc-computer-science",
+    "university": "TU Dresden",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Dresden",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 304,
+    "isNoNc": true,
+    "portal": {
+      "name": "Faculty Portal + uni-assist (Non-EU)",
+      "url": "https://tu-dresden.de/ing/informatik/studium/studienangebot/master-studiengaenge/master-computer-science",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "November 30",
+      "routingNotes": "Two-step process: aptitude assessment via Faculty of Informatics portal (free) + formal degree verification via uni-assist (€75 first application) for non-EU degrees. No standalone VPD needed prior to faculty check."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No NC grade cutoff; eligibility is governed strictly by the 80 + 10 non-overlapping ECTS competence framework (§ 5)."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": true,
+      "moiNote": "Per § 4(2)(7), evidence of C1 English may include a full degree certificate completed entirely in English, or IELTS 7.0 / TOEFL iBT."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "GRE is not mandatory (recognized field-specific tests may optionally waive the § 6 aptitude test if documentation is inconclusive)."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 20,
+          "label": "OS, Networks, Distributed Systems, Databases & Security",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 10,
+          "label": "Theoretical Informatics, Algorithms & Data Structures",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "MATH",
+          "minEcts": 20,
+          "label": "Mathematics for Informatics",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "ARCHITECTURE_HPC",
+          "minEcts": 5,
+          "label": "Computing Architecture, Engineering & Supercomputing",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 25,
+          "label": "Programming, Software Engineering, HCI, Graphics & Web",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "tud-total-90",
+          "label": "Total Non-Overlapping Core CS & Math (80 + 10 CP across areas 1–5)",
+          "buckets": [
+            "SYSTEMS_OS_DB_NET",
+            "THEORETICAL_CS",
+            "MATH",
+            "STOCHASTICS",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate thesis-ECTS threshold, but § 5(3) explicitly prohibits counting final studies (Bachelor thesis/capstone) and work placements/internships toward the 90 CP subject buckets."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Non-Overlapping Subject-Area Competence Audit (80 + 10 CP)",
+        "weightPercent": 100,
+        "note": "Binary eligibility gate per § 5(1)–(3); no seat-cap ranking (No NC)"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "TU Dresden Master Computer Science Identification Regulation (Eignungsfeststellungsordnung)",
+      "paragraphRef": "§ 4(2)(7) & § 5(1)–(3) Proof of Specific Professional Competence",
+      "officialPdfUrl": "https://tu-dresden.de/ing/informatik/studium/studienangebot/master-studiengaenge/master-computer-science",
+      "facultyEmail": "inf-master-admission@tu-dresden.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-wuerzburg-msc-ai",
+    "university": "University of Würzburg (JMU)",
+    "programName": "Artificial Intelligence",
+    "degreeType": "M.Sc.",
+    "city": "Würzburg",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 173,
+    "isNoNc": true,
+    "portal": {
+      "name": "WueStudy + uni-assist VPD",
+      "url": "https://www.informatik.uni-wuerzburg.de/en/studies/degree-programs/artificial-intelligence-master/",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": true,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "July 15",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Mandatory uni-assist VPD (€75) required for non-European Bachelor degrees prior to uploading into WueStudy (program name: 'MA 1-HF Künstliche Intelligenz HF konsek.Ma. (2024)'). Requires filled Excel mapping sheet + APS."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.5,
+      "cutoffBehavior": "INTERVIEW_FALLBACK",
+      "note": "German grade ≤ 2.5 qualifies for direct admission if credit and thesis rules are met. Applicants worse than 2.5 may be invited to a 30-minute oral aptitude test (Theoretical, Practical & Technical CS)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 72,
+      "moiAccepted": true,
+      "moiNote": "Accepts B2 English certificate (IELTS ≥ 6.0) OR official proof of English as the Medium of Instruction (MOI) in the Bachelor's degree."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "wue-cs-math-100",
+          "label": "Fundamental Computer Science & Mathematics",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 100
+        },
+        {
+          "id": "wue-math-ai-30",
+          "label": "Mathematics and/or Artificial Intelligence Subset",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 30
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 10,
+      "solo_thesis_required": true,
+      "note": "Requires a completed scientific thesis on a CS topic equivalent to ≥ 10 ECTS (or an equivalent independent research paper). Indian group B.Tech. capstones should be verified with the Admissions Committee."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Subject Credits (100 ECTS CS/Math incl. 30 ECTS Math/AI) & 10-ECTS Thesis",
+        "weightPercent": 50,
+        "note": "Mandatory eligibility gate"
+      },
+      {
+        "criterion": "Bachelor German Grade (≤ 2.5 Direct Admit / > 2.5 Oral Aptitude Test)",
+        "weightPercent": 50,
+        "note": "30-minute oral exam fallback if grade > 2.5"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "JMU Würzburg FSPO M.Sc. Künstliche Intelligenz (2024)",
+      "paragraphRef": "§ 4 Admission Requirements, Thesis Equivalence & Aptitude Test",
+      "officialPdfUrl": "https://www.informatik.uni-wuerzburg.de/en/studies/degree-programs/artificial-intelligence-master/",
+      "facultyEmail": "ai-master@informatik.uni-wuerzburg.de",
+      "lastVerifiedDate": "2026-10-23"
+    }
+  },
+  {
+    "id": "uni-marburg-msc-computer-science",
+    "university": "Philipps-Universität Marburg",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Marburg",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 392,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.uni-marburg.de/en/fb12/studying/degree-programs/m-sc-computer-science",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "July 15",
+      "summerDeadlineNonEu": "January 15",
+      "routingNotes": "Foreign degree holders apply via uni-assist (€75 first application; standard forwarding, no separate VPD workflow). APS certificate mandatory for India."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 3.2,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Per § 28 General Provisions, the Bachelor degree must be passed with an overall German grade of 3.2 or better (hard cutoff)."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Explicitly rejects MOI: 'Proof is provided exclusively by a language certificate from an internationally recognized language examination. Purely English-language studies or school certificates are not sufficient.'"
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 12,
+          "label": "Mathematics (Analysis, Linear Algebra & Statistics)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 9,
+          "label": "Theoretical Computer Science",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 24,
+          "label": "Algorithms, OOP, Declarative Programming & Software Eng",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 18,
+          "label": "System Software, Networks & Database Systems",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "marburg-math-cs-90",
+          "label": "Combined Mathematics & Computer Science (≥ 90 CP)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        },
+        {
+          "id": "marburg-cs-72",
+          "label": "Computer Science Core Modules (≥ 72 CP)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 72
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS requirement beyond recognized B.Sc./B.Tech. degree."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Eligibility Gate (≥ 90 CP Math+CS, ≥ 9 CP Theory, ≤ 3.2 GPA, C1 English)",
+        "weightPercent": 100,
+        "note": "No NC — all applicants fulfilling subject, grade, and C1 certificate requirements are admitted"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "Philipps-Universität Marburg Study & Exam Regulations M.Sc. Computer Science",
+      "paragraphRef": "Admission Requirements & § 28 General Provisions",
+      "officialPdfUrl": "https://www.uni-marburg.de/en/fb12/studying/degree-programs/m-sc-computer-science",
+      "facultyEmail": "studienberatung@mathematik.uni-marburg.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "tu-braunschweig-msc-data-science",
+    "university": "TU Braunschweig",
+    "programName": "Data Science",
+    "degreeType": "M.Sc.",
+    "city": "Braunschweig",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 388,
+    "isNoNc": false,
+    "portal": {
+      "name": "TU Braunschweig Online Portal",
+      "url": "https://www.tu-braunschweig.de/en/degree-programmes/data-science-master",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "March 15",
+      "summerDeadlineNonEu": "September 15",
+      "routingNotes": "Direct free application via TU Braunschweig web portal (no uni-assist, no VPD). Requires 1-page A4 subject-qualification overview (Arial 10pt) + APS certificate."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA auto-reject floor, but NC-restricted: Bachelor GPA carries 51% weight (mapped 1.0=31 pts down to 4.0=1 pt per § 4(5)) and determines pre-selection for the 15-minute video interview (49%)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 95,
+      "moiAccepted": true,
+      "moiNote": "Per § 2(3), applicants who completed a 2+ year degree taught entirely in English within the last 3 years may request exemption via official university MOI; otherwise IELTS ≥ 6.5 or TOEFL iBT ≥ 95 required."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 20,
+          "label": "Basic Mathematics (Linear Algebra & Multivariate Analysis)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "STOCHASTICS",
+          "minEcts": 5,
+          "label": "Probability & Statistics",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 20,
+          "label": "Programming & Software Engineering",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 15,
+          "label": "Databases, Networks, Distributed Systems & IT Security",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "tubs-cs-60",
+          "label": "Basic Computer Science Total (≥ 60 CP)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS requirement."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Bachelor Final Grade / GPA (§ 4(5) Points Table)",
+        "weightPercent": 51,
+        "note": "Also used to pre-select up to 2× available seats for interviews"
+      },
+      {
+        "criterion": "15-Minute Selection Video Interview (§ 7)",
+        "weightPercent": 49,
+        "note": "Assesses scientific methodology and Math/CS/DS foundations"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "TU Braunschweig Entry & Admission Regulations M.Sc. Data Science (Proclamation No. 1576, 01.08.2024)",
+      "paragraphRef": "§ 2(1)–(3) Entry Requirements & Auflagen, § 4(2)–(5) Selection Process",
+      "officialPdfUrl": "https://www.tu-braunschweig.de/en/degree-programmes/data-science-master",
+      "facultyEmail": "datascience@tu-braunschweig.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-passau-msc-computer-science",
+    "university": "University of Passau",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Passau",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 115,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.uni-passau.de/en/msc-computer-science",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "December 15",
+      "routingNotes": "International degrees apply via uni-assist (€75 standard forwarding; no standalone VPD). Requires Anabin H+ university check, thesis/project abstract, and APS certificate. German A1 can be completed by end of Year 1."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.7,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Requires German grade ≤ 2.7 (or documented ranking in the top 70% of graduating cohort)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 5.5,
+      "minToeflIbt": 87,
+      "moiAccepted": true,
+      "moiNote": "Explicitly accepts a first degree completed exclusively in English (MOI), IELTS ≥ 5.5, or TOEFL iBT ≥ 87. Note: German A1 must be proven by end of first year."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "passau-cs-110",
+          "label": "Computer Science & Related Modules (≥ 110 ECTS / ~2/3 of 4-Year Degree)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML",
+            "THESIS_CAPSTONE"
+          ],
+          "minEcts": 110
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "Requires an English abstract (with link to paper/report) of your undergraduate thesis or final-year project — or an independent academic research paper if no formal thesis existed."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Open-Admission Eligibility Gate (≥ 110 ECTS CS & Grade ≤ 2.7 / Top 70%)",
+        "weightPercent": 100,
+        "note": "No NC — guaranteed admission upon meeting credit, grade, and language thresholds"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Passau M.Sc. Computer Science Study & Examination Regulations (FStuPO)",
+      "paragraphRef": "Academic Requirements (110 ECTS CS, 2.7 Grade / Top 70%) & Language Requirements",
+      "officialPdfUrl": "https://www.uni-passau.de/en/msc-computer-science",
+      "facultyEmail": "international@fim.uni-passau.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "luh-hannover-msc-computer-science",
+    "university": "Leibniz University Hannover (LUH)",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Hannover",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 438,
+    "isNoNc": true,
+    "portal": {
+      "name": "LUH Online Portal + uni-assist VPD",
+      "url": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/computer-science",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": true,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "November 30",
+      "routingNotes": "Non-EU degree holders require a uni-assist VPD (€75) uploaded with the LUH online application (§ 3). If oversubscribed, places are allocated strictly by Bachelor GPA (§ 4(1))."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No fixed minimum GPA cutoff; if applicants exceed seats, ranked 100% by Bachelor average grade (§ 4(1))."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Per § 2(4), applicants for M.Sc. Computer Science must prove English at CEFR C1 via an officially accepted certificate listed by the LUH Language Centre (LLC)."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 15,
+          "label": "Mathematics (Appendix 1)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 10,
+          "label": "Theoretical Computer Science (Appendix 1)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 20,
+          "label": "Fundamentals of Computer Science (Appendix 1)",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "luh-cs-50",
+          "label": "Core & Advanced Computer Science Total (≥ 50 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 50
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS cutoff; degree equivalence verified via Anabin H+ (§ 2(1))."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Bachelor Final / Average Grade (§ 4(1) Ranking if Oversubscribed)",
+        "weightPercent": 100,
+        "note": "If eligible applicants ≤ seats, no selection procedure is conducted (§ 1(3))"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "LUH Official Bulletin 02/2024 — Eligibility & Admission Regulations M.Sc. Computer Science",
+      "paragraphRef": "§ 1(3), § 2(1)–(4), § 4(1) & Appendix 1 (25.03.2024)",
+      "officialPdfUrl": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/computer-science",
+      "facultyEmail": "studienberatung@inf.uni-hannover.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-bremen-msc-ai-intelligent-systems",
+    "university": "University of Bremen",
+    "programName": "Artificial Intelligence and Intelligent Systems",
+    "degreeType": "M.Sc.",
+    "city": "Bremen",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 389,
+    "isNoNc": false,
+    "portal": {
+      "name": "MOIN (moin.uni-bremen.de)",
+      "url": "https://moin.uni-bremen.de/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "March 15",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct free electronic application via moin.uni-bremen.de (no uni-assist, no VPD). Winter intake only for 1st-year applicants (deadline March 15). Requires max 2-page Letter of Motivation."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA auto-reject cutoff; when admission-restricted, Bachelor GPA counts for 50 of 100 selection points (§ 4(3))."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Per § 1(1)(c), B2 English must be proven by March 15 and full C1 English by 2 weeks after the start of the lecture period via recognized test certificate."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "bremen-cs-90",
+          "label": "Specialized CS Credits (Math, AI/ML, Software Design, Theory, Programming & Project Work)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML",
+            "THESIS_CAPSTONE"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "Project work explicitly counts toward the 90 CP specialized requirement (§ 1(1)(b))."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Bachelor's Degree Grade (max 50 / 100 pts)",
+        "weightPercent": 50,
+        "note": "§ 4 para. 3"
+      },
+      {
+        "criterion": "Assessment of Study Specializations (Math, AI/ML, Theory, SE, Projects)",
+        "weightPercent": 40,
+        "note": "max 40 / 100 pts (§ 4 para. 3)"
+      },
+      {
+        "criterion": "Letter of Motivation (max 2 pages)",
+        "weightPercent": 10,
+        "note": "max 10 / 100 pts (§ 4 para. 3)"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Bremen Admission Regulations M.Sc. Artificial Intelligence and Intelligent Systems (05.07.2023)",
+      "paragraphRef": "§ 1(1)(a)–(d), § 3(5) & § 4(3)",
+      "officialPdfUrl": "https://www.uni-bremen.de/en/master",
+      "facultyEmail": "master@uni-bremen.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-hamburg-msc-intelligent-adaptive-systems",
+    "university": "University of Hamburg",
+    "programName": "Intelligent Adaptive Systems",
+    "degreeType": "M.Sc.",
+    "city": "Hamburg",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 340,
+    "isNoNc": false,
+    "portal": {
+      "name": "STiNE (Direct Online Portal)",
+      "url": "https://www.uni-hamburg.de/online-application",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "March 31",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct free online application via STiNE (Feb 15 – March 31, Winter intake only; no uni-assist, no VPD). Requires provided Cover Letter Form, max 1.5-page LOM, and 60-ECTS CS mapping table."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Competitive NC selection (hundreds of applicants/year): LOM carries 40%, Bachelor grade & CS comparability 30%, and relevant professional/international experience 30%."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 90,
+      "moiAccepted": false,
+      "moiNote": "Requires IELTS ≥ 6.5 (all sub-scores ≥ 6.0) or TOEFL iBT ≥ 90 (all sub-scores ≥ 20). MOI from India is not automatically accepted; only 3+ years study in an English-speaking country is reviewed case-by-case."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "uhh-cs-60",
+          "label": "Core Computer Science Comparable to UHH B.Sc. Informatik (≥ 60 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS threshold."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Quality & Content of Letter of Motivation (max 1.5 pages)",
+        "weightPercent": 40,
+        "note": "Possible phone interview to clarify open questions"
+      },
+      {
+        "criterion": "Bachelor Grade & Comparability with UHH B.Sc. Informatik",
+        "weightPercent": 30,
+        "note": "Graded on 1–5 scale"
+      },
+      {
+        "criterion": "Relevant Professional & International Experience",
+        "weightPercent": 30,
+        "note": "Graded on 1–5 scale"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "Universität Hamburg M.Sc. Intelligent Adaptive Systems Application & Selection Bylaws (Jan 2026)",
+      "paragraphRef": "Admission Requirements (1b), (2) & Selection Criteria (40/30/30)",
+      "officialPdfUrl": "https://www.master-intelligent-adaptive-systems.com/apply-master-intelligent-adaptive-systems/",
+      "facultyEmail": "ias-team.inf@uni-hamburg.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-hildesheim-msc-data-analytics",
+    "university": "University of Hildesheim",
+    "programName": "Data Analytics",
+    "degreeType": "M.Sc.",
+    "city": "Hildesheim",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 440,
+    "isNoNc": false,
+    "portal": {
+      "name": "Hildesheim Online Application Portal",
+      "url": "https://www.uni-hildesheim.de/en/studying/study-programs/international-master-in-data-analytics/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "June 30",
+      "summerDeadlineNonEu": "December 15",
+      "routingNotes": "Direct free online portal with continuous prioritized admission (no uni-assist, no VPD). Indian applicants upload their APS certificate in one of the English certificate slots (or latest at enrollment)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA auto-reject cutoff; overall Bachelor grade carries 53% weight in continuous prioritization."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 61,
+      "moiAccepted": true,
+      "moiNote": "Accepts IELTS ≥ 6.0, TOEFL ≥ 61, OR a stamped and signed official university MOI letter stating your prior degree was taught completely in English."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "hildesheim-da-60",
+          "label": "Data Analytics Foundations (Math, Statistics, Programming & CS ≥ 60 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS requirement."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Overall Mark of Bachelor's Degree",
+        "weightPercent": 53
+      },
+      {
+        "criterion": "Amount & Marks of Data Analytics Courses (incl. Math & Programming)",
+        "weightPercent": 35
+      },
+      {
+        "criterion": "Prior Research Activities in Data Analytics",
+        "weightPercent": 6
+      },
+      {
+        "criterion": "Prior Practical Activities in Data Analytics",
+        "weightPercent": 6
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Hildesheim Admission & Exam Regulations (Information Management & IT — Data Analytics)",
+      "paragraphRef": "Program Requirements, English MOI Rule & Prioritization Criteria (53/35/6/6)",
+      "officialPdfUrl": "https://www.uni-hildesheim.de/en/studying/study-programs/international-master-in-data-analytics/",
+      "facultyEmail": "data-analytics@ismll.uni-hildesheim.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-hildesheim-msc-software-engineering",
+    "university": "University of Hildesheim",
+    "programName": "Software Engineering",
+    "degreeType": "M.Sc.",
+    "city": "Hildesheim",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 440,
+    "isNoNc": false,
+    "portal": {
+      "name": "Hildesheim Online Application Portal",
+      "url": "https://www.uni-hildesheim.de/en/studying/study-programs/international-master-in-software-engineering/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "June 30",
+      "summerDeadlineNonEu": "December 15",
+      "routingNotes": "Direct free online portal with continuous prioritized admission (no uni-assist, no VPD). Upload APS certificate in one of the English certificate slots."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA cutoff; overall Bachelor grade accounts for 53% of prioritization."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 61,
+      "moiAccepted": true,
+      "moiNote": "Accepts IELTS ≥ 6.0, TOEFL ≥ 61, OR a stamped and signed official university MOI letter confirming the Bachelor's degree was taught completely in English."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "hildesheim-se-60",
+          "label": "Software Engineering, Programming, CS & Math Foundations (≥ 60 ECTS)",
+          "buckets": [
+            "MATH",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS requirement."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Overall Mark of Bachelor's Degree",
+        "weightPercent": 53
+      },
+      {
+        "criterion": "Amount & Marks of Software Engineering Courses (incl. Math & Programming)",
+        "weightPercent": 35
+      },
+      {
+        "criterion": "Prior Research Activities in Software Engineering",
+        "weightPercent": 6
+      },
+      {
+        "criterion": "Prior Practical Activities in Software Engineering",
+        "weightPercent": 6
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Hildesheim International M.Sc. Software Engineering Admission Regulations",
+      "paragraphRef": "Program Requirements, English MOI Rule & Prioritization Criteria (53/35/6/6)",
+      "officialPdfUrl": "https://www.uni-hildesheim.de/en/studying/study-programs/international-master-in-software-engineering/",
+      "facultyEmail": "master-se@sse.uni-hildesheim.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "th-koeln-msc-digital-sciences",
+    "university": "TH Köln",
+    "programName": "Digital Sciences (DIS / SAR)",
+    "degreeType": "M.Sc.",
+    "city": "Cologne",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 325,
+    "isNoNc": false,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.th-koeln.de/en/academics/digital-sciences-masters-program_82859.php",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "October 31",
+      "routingNotes": "Non-EU applicants with foreign Bachelor degrees must apply via uni-assist (€75; standard forwarding). Stage 2 requires uploading a motivation video/interview."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Ranked by Bachelor grade (50%), degree suitability across 6 fields of action (25%), and motivation video/interview (25%)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 80,
+      "moiAccepted": false,
+      "moiNote": "Requires CEFR B2 via IELTS ≥ 6.0 or TOEFL iBT ≥ 80 (or secondary school B2 annotation); Indian MOI letters are not automatically accepted."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "thk-cs-80",
+          "label": "Computer Science / Information Science Content across 19 Designated Areas (≥ 80 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 80
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No standalone thesis-ECTS threshold; missing prerequisite credits ≤ 15 ECTS may be made up conditionally (Auflagen)."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Grade of the Bachelor's Degree",
+        "weightPercent": 50
+      },
+      {
+        "criterion": "Level of Suitability Across 6 Specialization Fields of Action",
+        "weightPercent": 25
+      },
+      {
+        "criterion": "Evaluation of Motivation Video / Interview",
+        "weightPercent": 25
+      }
+    ],
+    "citation": {
+      "regulationTitle": "TH Köln M.Sc. Digital Sciences Admission & Selection Regulations",
+      "paragraphRef": "Admission Requirements (80 ECTS, ≤ 15 ECTS Auflagen Cap) & Selection Process (50/25/25)",
+      "officialPdfUrl": "https://www.th-koeln.de/en/academics/digital-sciences-masters-program_82859.php",
+      "facultyEmail": "digital-sciences@th-koeln.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "hbrs-msc-autonomous-systems",
+    "university": "Hochschule Bonn-Rhein-Sieg (H-BRS)",
+    "programName": "Autonomous Systems",
+    "degreeType": "M.Sc.",
+    "city": "Sankt Augustin",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 325,
+    "isNoNc": false,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.h-brs.de/en/inf/study/master/autonomous-systems",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "February 15",
+      "summerDeadlineNonEu": "August 15",
+      "routingNotes": "International Bachelor graduates apply exclusively via uni-assist (€75; allow 3–4 weeks pre-screening). Requires APS certificate and 2-page Letter of Motivation (1,200–1,400 words). Extremely competitive (15 seats with internship)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.5,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Minimum German grade 2.5 required for Summer 2027 intake (note: minimum grade requirement is scheduled to be lifted starting Winter 2027/28)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 87,
+      "moiAccepted": false,
+      "moiNote": "Verbatim rule: 'A medium of instruction letter does not exempt you from providing proof of an official English language certificate.' Exemptions apply only to Australia, Canada (ex-Quebec), Ireland, NZ, UK, USA."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "hbrs-cs-90",
+          "label": "Computer Science Concepts, Methods & Tools (≥ 90 ECTS / ~50% of Degree)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS cutoff."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Scope & Relevance of Computer Science Content",
+        "weightPercent": 50,
+        "note": "Evaluated with LOM (programming & robotics projects)"
+      },
+      {
+        "criterion": "Bachelor's Degree Final Grade",
+        "weightPercent": 50,
+        "note": "Qualification list ranks top applicants for available seats"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "H-BRS Access Requirements M.Sc. Autonomous Systems",
+      "paragraphRef": "Access Requirements (90 ECTS CS, 2.5 GPA SoSe 2027, Strict B2+ English / No MOI)",
+      "officialPdfUrl": "https://www.h-brs.de/en/inf/study/master/autonomous-systems",
+      "facultyEmail": "mas-info@h-brs.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-siegen-msc-computer-science",
+    "university": "University of Siegen",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Siegen",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 329,
+    "isNoNc": true,
+    "portal": {
+      "name": "unisono (Direct Portal)",
+      "url": "https://www.eti.uni-siegen.de/en/study/master/computer-science/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "April 30",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct free application via Siegen's unisono portal (no uni-assist, no VPD, €0 fee). Strict discipline-by-discipline CP verification across 5 core areas + 10 CP project/thesis."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Eligibility-gated (No NC): admission hinges strictly on fulfilling all subject-area ECTS thresholds and study focus prerequisites."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 80,
+      "moiAccepted": false,
+      "moiNote": "Requires official CEFR B2 English certificate (IELTS ≥ 6.0 / TOEFL iBT ≥ 80)."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 20,
+          "label": "Mathematical Foundations (Discrete Math, Linear Algebra, Analysis)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 30,
+          "label": "Foundations in CS, Programming, SE & ML",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 10,
+          "label": "Theoretical Computer Science (Automata, Theory of Computation, Logic)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 20,
+          "label": "Practical Computer Science (OS, Databases, Networks)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "ARCHITECTURE_HPC",
+          "minEcts": 15,
+          "label": "Computer Engineering (Architecture, Digital Logic, Networks)",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": []
+    },
+    "thesisRule": {
+      "min_thesis_ects": 10,
+      "solo_thesis_required": false,
+      "note": "Requires 'Project Work or Bachelor Thesis 10 CP' — accepts substantial capstone project work as well as a solo thesis, provided it reaches ≥ 10 ECTS."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Strict Curricular Credit Audit (95 CP across 5 Core Areas + 10 CP Thesis/Project + 18 CP Focus)",
+        "weightPercent": 100,
+        "note": "No NC — binary subject-eligibility gate"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Siegen M.Sc. Computer Science Admission & Study Focus Requirements",
+      "paragraphRef": "Subject CP Requirements (Math 20, CS/Prog 30, Theory 10, Practical 20, CE 15, Project/Thesis 10)",
+      "officialPdfUrl": "https://www.eti.uni-siegen.de/en/study/master/computer-science/",
+      "facultyEmail": "msc-cs@uni-siegen.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "uni-goettingen-msc-applied-cs",
+    "university": "University of Göttingen",
+    "programName": "Applied Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Göttingen",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 430,
+    "isNoNc": true,
+    "portal": {
+      "name": "Göttingen Direct Online Portal",
+      "url": "https://www.uni-goettingen.de/en/applied+computer+science+%28m.sc.%29/570147.html",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 15",
+      "summerDeadlineNonEu": "October 15",
+      "routingNotes": "Direct free application via University of Göttingen's online portal (no uni-assist, no VPD). Requires 90 ECTS combined CS + Math (at least 60 CS and 15 Math) plus C1 English."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Eligibility-gated (No NC); applicants meeting the 90 ECTS CS/Math credit split and C1 English requirement qualify."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Requires CEFR C1 English certificate (or B2 English combined with DSH-2 German). Indian MOI alone is not accepted for C1."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 15,
+          "label": "Mathematical & Scientific-Technical Foundations (≥ 15 ECTS)",
+          "acceptStochastics": true
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "goettingen-cs-60",
+          "label": "Computer Science & Applied Computer Science (≥ 60 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        },
+        {
+          "id": "goettingen-total-90",
+          "label": "Combined CS & Mathematical Foundations (≥ 90 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS threshold."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Eligibility Gate (≥ 90 ECTS CS+Math incl. ≥ 60 CS & ≥ 15 Math, C1 English)",
+        "weightPercent": 100,
+        "note": "Open admission once academic and language requirements are verified"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Göttingen Access Requirements M.Sc. Applied Computer Science",
+      "paragraphRef": "Academic Qualifications (90 / 60 / 15 ECTS) & Language Proficiency (C1 English)",
+      "officialPdfUrl": "https://www.uni-goettingen.de/en/applied+computer+science+%28m.sc.%29/570147.html",
+      "facultyEmail": "studienberatung@informatik.uni-goettingen.de",
+      "lastVerifiedDate": "2026-10-23"
+    }
+  },
+  {
+    "id": "rptu-msc-computer-science",
+    "university": "RPTU Kaiserslautern-Landau",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Kaiserslautern",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 295,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist + RPTU Assessment",
+      "url": "https://rptu.de/en/international/master/computer-science",
+      "isFreePortal": false,
+      "feeEur": 135,
+      "vpdRequired": true,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "June 15",
+      "summerDeadlineNonEu": "December 15",
+      "routingNotes": "International non-EU degrees require uni-assist (€75) plus RPTU's €60 foreign certificate verification fee (€135 total). Submit Transcript, Course Descriptions (module handbook), Letter of Motivation, and CV."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No NC cutoff; eligibility is assessed qualitatively by the Examination Board using transcript + course descriptions."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 81,
+      "moiAccepted": false,
+      "moiNote": "Verbatim rule: Sufficient English is met ONLY via German Abitur (§ 65 HochSchG), IELTS ≥ 6.5, TOEFL iBT ≥ 81, C1 certificate, or explicit Examination Board confirmation (MOI not automatically accepted)."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "rptu-cs-90",
+          "label": "Core Computer Science & Mathematical Foundations (≥ 90 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS requirement; course descriptions must substantiate core CS depth."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Examination Board Curricular & Document Eligibility Review",
+        "weightPercent": 100,
+        "note": "No NC — evaluates transcript, course descriptions, LOM & CV"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "RPTU Kaiserslautern-Landau M.Sc. Computer Science Application & English Regulations",
+      "paragraphRef": "Application Requirements (Items 1–4) & English Proficiency (§ 65 Para. 1 HochSchG, IELTS 6.5 / TOEFL 81)",
+      "officialPdfUrl": "https://rptu.de/en/international/master/computer-science",
+      "facultyEmail": "admissions@cs.rptu.de",
+      "lastVerifiedDate": "2026-10-23"
+    }
+  },
+  {
+    "id": "uni-potsdam-msc-cognitive-systems",
+    "university": "University of Potsdam",
+    "programName": "Cognitive Systems: Language, Learning and Reasoning",
+    "degreeType": "M.Sc.",
+    "city": "Potsdam",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 330,
+    "isNoNc": false,
+    "portal": {
+      "name": "PULS + uni-assist VPD",
+      "url": "https://www.uni-potsdam.de/en/studium/what-to-study/master/masters-courses-from-a-to-z/cognitive-systems",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": true,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "June 1",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Requires uni-assist VPD (€75) uploaded to Potsdam's PULS portal (Winter intake only for 1st semester; deadline June 1). 50% seat quota reserved for international applicants (§ 6). Requires max 5,000-character SOP."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA auto-reject cutoff; when admission-restricted, average grade carries 51% + relative grade 13% (§ 7(2))."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Per § 3(1)(d), English skills at CEFR C1 must be proven via ZulO § 4(2) accepted certificates (Examining Board decides exceptions case-by-case)."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 18,
+      "requiredBuckets": [
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 6,
+          "label": "Programming Knowledge (§ 3(1)(c), ≥ 6 CP)",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "potsdam-bridge-9",
+          "label": "Bridge Module Foundation FM1/FM2 (Math or CS Foundations ≥ 9 CP, § 3(1)(b))",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 9
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No mandatory thesis-ECTS floor, though directly related projects/final theses earn +9% selection weight (§ 7(2)(d))."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Bachelor Average Grade (§ 7(2)(a))",
+        "weightPercent": 51
+      },
+      {
+        "criterion": "Relative Grade / Cohort Rank (§ 7(2)(b))",
+        "weightPercent": 13
+      },
+      {
+        "criterion": "Statement of Purpose (max 5,000 chars, graded 1.0–5.0)",
+        "weightPercent": 9
+      },
+      {
+        "criterion": "Related Projects, Internships, Thesis or Stays Abroad",
+        "weightPercent": 9
+      },
+      {
+        "criterion": "Directly Related Coursework (≥ 9 CP)",
+        "weightPercent": 9
+      },
+      {
+        "criterion": "Other Evidence of Excellence",
+        "weightPercent": 9
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Potsdam Subject-Specific Entrance & Admission Regulations M.Sc. Cognitive Systems",
+      "paragraphRef": "§ 3(1)(a)–(d), § 4 Bridge Modules, § 6 Quota & § 7(2) Selection Weights",
+      "officialPdfUrl": "https://www.uni-potsdam.de/en/studium/what-to-study/master/masters-courses-from-a-to-z/cognitive-systems",
+      "facultyEmail": "cogsys-info@uni-potsdam.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "hsrm-meng-ai-advanced-it",
+    "university": "Hochschule RheinMain (HSRM)",
+    "programName": "AI and Advanced Information Technologies",
+    "degreeType": "M.Eng.",
+    "city": "Wiesbaden",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 355,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.hs-rm.de/en/faculties/engineering/study-programs/ai-and-advanced-information-technologies-meng",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "July 15",
+      "summerDeadlineNonEu": "January 15",
+      "routingNotes": "International degree holders apply via uni-assist (€75). Conditional admission is explicitly foreseen (§ 10). Applicants with grades between 2.5 and 3.0 are routed to a structured admission interview (§ 3(1), § 8)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.5,
+      "cutoffBehavior": "INTERVIEW_FALLBACK",
+      "note": "Per § 3(1), German grade ≤ 2.5 meets the direct threshold; applicants between 2.5 and 3.0 may qualify via a structured criteria-based admission interview (§ 8)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 87,
+      "moiAccepted": true,
+      "moiNote": "Verbatim § 5(1): 'If proof can be provided that the first degree was completed entirely in English, then this will be accepted as proof of sufficient language proficiency' (CEFR B2+)."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [],
+      "combinedMinEcts": [
+        {
+          "id": "hsrm-ai-eng-60",
+          "label": "Engineering, AI, Networks & Computer Science Competencies (§ 2(1), ≥ 60 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No standalone thesis-ECTS floor; applicants with < 300 combined ECTS can make up credits via supplementary research project or internship (§ 2(2))."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Competency Alignment (AI, Networks, System Understanding, § 2(1))",
+        "weightPercent": 60,
+        "note": "Evaluated with conditional admission option (§ 10)"
+      },
+      {
+        "criterion": "Bachelor Grade (≤ 2.5) / Structured Admission Interview (2.5–3.0, § 8)",
+        "weightPercent": 40
+      }
+    ],
+    "citation": {
+      "regulationTitle": "Hochschule RheinMain Admission Regulations 2026 — M.Eng. AI and Advanced Information Technologies (No. 1028)",
+      "paragraphRef": "§ 2(1)–(2), § 3(1), § 5(1) MOI Rule, § 8 Interview & § 10 Conditional Admission (07.05.2026)",
+      "officialPdfUrl": "https://www.hs-rm.de/en/faculties/engineering/study-programs/ai-and-advanced-information-technologies-meng",
+      "facultyEmail": "studienqualitaetsentwicklung@hs-rm.de",
+      "lastVerifiedDate": "2026-10-22"
+    }
+  },
+  {
+    "id": "saarland-msc-computer-science",
+    "university": "Saarland University (SIC)",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Saarbrücken",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 351,
+    "isNoNc": false,
+    "portal": {
+      "name": "Saarland Informatics Campus (SIC) Portal",
+      "url": "https://saarland-informatics-campus.de/en/studium-studies/application/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 15",
+      "summerDeadlineNonEu": "November 15",
+      "routingNotes": "Direct free online application via the Department of Computer Science (SIC) portal — no uni-assist and no VPD required. Requires Letter of Motivation, 2 academic references, and details of relevant work/internships. Admission decisions typically issued mid-July (WiSe) / mid-Feb (SoSe)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No rigid numeric cutoff published, but highly selective competitive review of Bachelor academic merit, 2 academic references, and LOM by the Master's commission."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Verbatim rule: 'must demonstrate advanced proficiency in English to complete the programme (C1, a MOI (Medium of Instruction) cannot be accepted)'."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "GRE is not mandatory (strong scores may optionally be attached)."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 15,
+          "label": "Mathematics Foundations (Linear Algebra, Analysis, Discrete Math)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 12,
+          "label": "Theoretical Computer Science & Algorithms",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 24,
+          "label": "Core Programming, Software Engineering & AI/ML",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "sic-cs-math-90",
+          "label": "Comparable Core CS & Math Foundations (≥ 90 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS cliff beyond a recognized CS Bachelor's degree."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Academic Merit & Curricular Depth in CS/Math",
+        "weightPercent": 60,
+        "note": "Assessed by the SIC Master's Commission"
+      },
+      {
+        "criterion": "Two Academic References & Letter of Motivation",
+        "weightPercent": 25
+      },
+      {
+        "criterion": "Relevant Work Experience, Internships & Study Abroad",
+        "weightPercent": 15
+      }
+    ],
+    "citation": {
+      "regulationTitle": "Saarland University (SIC) M.Sc. Computer Science Admission Requirements",
+      "paragraphRef": "Requirements (C1 English / No MOI, 2 Academic References, LOM) & Application Deadlines (May 15 / Nov 15)",
+      "officialPdfUrl": "https://saarland-informatics-campus.de/en/studium-studies/application/",
+      "facultyEmail": "master-cs@cs.uni-saarland.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "tu-berlin-msc-computer-science",
+    "university": "TU Berlin",
+    "programName": "Computer Science (Informatik)",
+    "degreeType": "M.Sc.",
+    "city": "Berlin",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 329,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "January 15",
+      "routingNotes": "Foreign Bachelor graduates apply via uni-assist (€75 first application). No NC — admission is strictly gated by the 36 CP core CS split + 18 CP Math + 30 further CS CP (excluding the Bachelor's thesis)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Open admission (No NC) — no minimum GPA cutoff provided all exact non-overlapping subject CP thresholds and B2 English proof are satisfied."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.5,
+      "minToeflIbt": 87,
+      "moiAccepted": false,
+      "moiNote": "Requires recognized proof of English proficiency at CEFR level B2 (e.g., IELTS ≥ 6.5 or TOEFL iBT ≥ 87); standard Indian MOI letters are not automatically accepted."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 12,
+          "label": "Theoretical Computer Science (≥ 12 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "ARCHITECTURE_HPC",
+          "minEcts": 12,
+          "label": "Computer Engineering / Information Technology (≥ 12 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 12,
+          "label": "Methodological-Practical Computer Science (≥ 12 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "MATH",
+          "minEcts": 18,
+          "label": "Mathematics (≥ 18 CP)",
+          "acceptStochastics": true
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "tub-cs-66",
+          "label": "Total Computer Science (36 CP Fundamentals + 30 Further CP, Excluding Thesis)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 66
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "Verbatim rule: 'The bachelor's thesis may not be used to make up these 30 credit points' — strictly excluded from all CS buckets."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Strict Subject-Area CP Gate (12 Theory + 12 CE/IT + 12 Practical + 30 Further CS + 18 Math)",
+        "weightPercent": 100,
+        "note": "No NC — binary eligibility gate excluding Bachelor's thesis"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "TU Berlin M.Sc. Computer Science (Informatik) Admission Regulations",
+      "paragraphRef": "Admission Requirements (36 CP Core CS + 30 Further CS excl. Thesis + 18 CP Math, CEFR B2)",
+      "officialPdfUrl": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc",
+      "facultyEmail": "studienberatung@eecs.tu-berlin.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "tu-darmstadt-msc-ai-ml",
+    "university": "TU Darmstadt",
+    "programName": "Artificial Intelligence and Machine Learning",
+    "degreeType": "M.Sc.",
+    "city": "Darmstadt",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 356,
+    "isNoNc": true,
+    "portal": {
+      "name": "TUCaN Direct Portal + Postal Hard Copies",
+      "url": "https://www.informatik.tu-darmstadt.de/studium_fb20/im_studium/studiengaenge_liste/msc_aiml.en.jsp",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "July 15",
+      "summerDeadlineNonEu": "January 15",
+      "routingNotes": "Direct free portal via TUCaN (no uni-assist, no VPD). CRITICAL TRAP: Submit online first to unlock 'Annex Computer Science' & 'Annex Computer Science study courses', then mail printed hard copies by post/courier — electronic submission alone is NOT accepted!"
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No NC — admission is decided via entrance competence verification against TU Darmstadt's reference B.Sc. curriculum (with optional entrance exam if gaps are inconclusive)."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Requires official CEFR C1 English certificate (e.g., TOEFL iBT ≥ 95 or IELTS ≥ 7.0); Indian MOI letters are not accepted."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required (applicants with unclear curricular equivalence may be invited to TU Darmstadt's entrance examination)."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 12,
+          "label": "Theoretical CS (Automata, Formal Languages, Logic, Semantics)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 24,
+          "label": "Applied CS, Programming, Algorithms, SE & AI/ML",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "SYSTEMS_OS_DB_NET",
+          "minEcts": 12,
+          "label": "OS, Networks, Distributed Systems, Security & Info Mgmt",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "ARCHITECTURE_HPC",
+          "minEcts": 8,
+          "label": "Technical CS (Digital Technology & Computer Organisation)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "STOCHASTICS",
+          "minEcts": 5,
+          "label": "Probabilistic Methods of Computer Science",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "tudarm-core-60",
+          "label": "Core CS, AI/ML & Technical CS Equivalence (≥ 60 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML",
+            "STOCHASTICS"
+          ],
+          "minEcts": 60
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No standalone thesis-ECTS floor; curriculum equivalence against reference TU Darmstadt modules governs entry."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Entrance Competence Verification (Theoretical, Applied, Technical CS & AI/ML)",
+        "weightPercent": 100,
+        "note": "No NC — Auflagen or entrance exam if specific reference modules are missing"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "TU Darmstadt Specific Entry Requirements M.Sc. Artificial Intelligence and Machine Learning",
+      "paragraphRef": "Entry-Level Skills (Theoretical, Applied, Technical CS, AI/ML) & TUCaN Postal Procedure",
+      "officialPdfUrl": "https://www.informatik.tu-darmstadt.de/studium_fb20/im_studium/studiengaenge_liste/msc_aiml.en.jsp",
+      "facultyEmail": "international@informatik.tu-darmstadt.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "fau-erlangen-msc-ai",
+    "university": "FAU Erlangen-Nürnberg",
+    "programName": "Artificial Intelligence",
+    "degreeType": "M.Sc.",
+    "city": "Erlangen",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 72,
+    "isNoNc": true,
+    "portal": {
+      "name": "campo (Direct FAU Portal)",
+      "url": "https://www.fau.eu/studiengang/artificial-intelligence-msc/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct application via FAU's campo portal (no uni-assist VPD). Winter intake only (May 31 deadline). International applicants must submit GRE (FAU ETS recipient code: 1344) or a comparable standardized test (e.g., GATE)."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.5,
+      "cutoffBehavior": "INTERVIEW_FALLBACK",
+      "note": "Qualification assessment expects an excellent Bachelor's degree (~2.5 German grade or better for direct admission; borderline cases may undergo qualification assessment/interview)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 80,
+      "moiAccepted": true,
+      "moiNote": "Verbatim rule: 'TOEFL score of at least 560 (pBT) or equivalent qualification, e.g. confirmation of the university that the Bachelor's program was taught in English' (MOI accepted)."
+    },
+    "testRule": {
+      "greRequired": true,
+      "dmatAccepted": false,
+      "minGreQuant": 158,
+      "minGreVerbal": 145,
+      "minGreAwa": 3.5,
+      "exemptBelowGermanGrade": null,
+      "note": "Mandatory for international applicants: 'Evidence of the student's subject knowledge either on the basis of a Graduate Record Examination (GRE), stating FAU as the designated recipient (code 1344), or a comparable standardized test' (GATE CS also accepted in practice)."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 15,
+          "label": "Well-Rounded Mathematics (Analysis, Linear Algebra, Stochastics)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 10,
+          "label": "Theoretical CS, Logic & Algorithmics",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 20,
+          "label": "Programming, Software Engineering & AI Foundations",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "fau-ai-90",
+          "label": "Core Computer Science & Mathematics Foundations (≥ 90 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 90
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS floor."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Qualification Assessment (CS/Math Foundations & Bachelor Grade)",
+        "weightPercent": 70
+      },
+      {
+        "criterion": "Standardized Subject Knowledge Test (GRE / Comparable Test)",
+        "weightPercent": 30
+      }
+    ],
+    "citation": {
+      "regulationTitle": "FAU Erlangen-Nürnberg Admission Requirements M.Sc. Artificial Intelligence",
+      "paragraphRef": "Qualification Assessment, International Student Requirements (MOI / TOEFL & Mandatory GRE)",
+      "officialPdfUrl": "https://www.fau.eu/studiengang/artificial-intelligence-msc/",
+      "facultyEmail": "master-ai@fau.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "uni-paderborn-msc-computer-science",
+    "university": "Paderborn University",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Paderborn",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 350,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.uni-paderborn.de/en/study-offer/course/computer-science-master",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 31",
+      "summerDeadlineNonEu": "November 30",
+      "routingNotes": "International Bachelor graduates apply via uni-assist (€75). Non-EU applicants must submit GRE (Quant ≥ 157, AWA ≥ 4.0) OR TestAS dMAT Computer Science (≥ 50%), UNLESS exempt via a very good German grade (< 1.8 per § 5(1)(1a))."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 3.0,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Hard minimum grade cutoff of 3.0 or better (German scale). Additionally, a grade strictly better than 1.8 waives the mandatory international GRE/dMAT requirement."
+    },
+    "englishRule": {
+      "cefrLevel": "B2+",
+      "minIelts": 6.5,
+      "minToeflIbt": 80,
+      "moiAccepted": false,
+      "moiNote": "Requires IELTS ≥ 6.5, TOEFL iBT ≥ 80, CAE Grade B, or a Bachelor's degree in a country where English is the official language (Indian MOI is not reliably accepted; submit IELTS/TOEFL)."
+    },
+    "testRule": {
+      "greRequired": true,
+      "dmatAccepted": true,
+      "minGreQuant": 157,
+      "minGreAwa": 4.0,
+      "minDmatScore": 50,
+      "exemptBelowGermanGrade": 1.8,
+      "note": "International applicants must provide GRE (Quant ≥ 157 & AWA ≥ 4.0) OR TestAS Mastertest CS dMAT (≥ 50%), OR qualify for exemption via a very good final grade (< 1.8 German scale per § 5(1)(1a))."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 20,
+          "label": "Software Engineering (≥ 20 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 20,
+          "label": "Theoretical Computer Science (≥ 20 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "ARCHITECTURE_HPC",
+          "minEcts": 15,
+          "label": "Computer Engineering (≥ 15 CP)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "MATH",
+          "minEcts": 15,
+          "label": "Mathematical Foundations of Computer Science (≥ 15 CP)",
+          "acceptStochastics": true
+        }
+      ],
+      "combinedMinEcts": []
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS floor beyond a recognized CS Bachelor's degree."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Eligibility Gate (70 CP across 4 Core Areas, Grade ≤ 3.0, GRE/dMAT or < 1.8 Exemption)",
+        "weightPercent": 100,
+        "note": "No NC — admitted upon fulfilling academic, language, and GRE/dMAT rules"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "Paderborn University M.Sc. Computer Science Admission Requirements & General Provisions",
+      "paragraphRef": "Academic Prerequisites (20 SE / 20 Theory / 15 CE / 15 Math), Grade ≤ 3.0 & § 5(1)(1a) GRE/dMAT Rule",
+      "officialPdfUrl": "https://www.uni-paderborn.de/en/study-offer/course/computer-science-master",
+      "facultyEmail": "international@cs.uni-paderborn.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "uni-bonn-msc-computer-science",
+    "university": "University of Bonn",
+    "programName": "Computer Science",
+    "degreeType": "M.Sc.",
+    "city": "Bonn",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 335,
+    "isNoNc": false,
+    "portal": {
+      "name": "Bonn Institute of CS Direct Portal",
+      "url": "https://www.informatik.uni-bonn.de/en/studies/master-programs/application-for-the-masters-program",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 15",
+      "summerDeadlineNonEu": "November 15",
+      "routingNotes": "Direct free application via Bonn's online portal (no uni-assist, no VPD). REALITY CHECK (WS 2026/27): Bonn reports >99% rejection for South Asian curricula/theses; among eligible non-EEA applicants only the top ~1% (≥ 46 pts) were admitted. Do NOT submit MOI or generic LoRs."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA auto-reject, but only grades strictly better than 2.5 earn selection points, and WS 2026/27 non-EEA cutoff required 46 points (top ~1%)."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Verbatim warning under 'Not to be submitted!': 'Proof of the language of instruction in your previous degree program. It will not be accepted as a proof of English language proficiency!' Requires IELTS ≥ 7.0 or TOEFL iBT ≥ 95."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 18,
+          "label": "Mathematical Foundations (Logic, Discrete, Linear Algebra, Analysis, Stochastics)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 14,
+          "label": "Algorithm Theory, Complexity Theory & Formal Languages (Excl. Programming/Thesis)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 18,
+          "label": "Programming, Software Technology, Info Systems, AI & Graphics",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": []
+    },
+    "thesisRule": {
+      "min_thesis_ects": 12,
+      "solo_thesis_required": true,
+      "note": "Requires a solo scientific Bachelor's thesis worth ≥ 12 ECTS (≥ 750 lines of scientific prose excluding code/tables/bullets). Mere software design documentation is rejected; must upload full thesis."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Additional Advanced Algorithms & Complexity Theory (weight 2)",
+        "weightPercent": 20,
+        "note": "Only grades better than 2.5 earn points"
+      },
+      {
+        "criterion": "Computer Graphics, Vision, Audio or Sensing Modules (weight 2)",
+        "weightPercent": 20
+      },
+      {
+        "criterion": "Additional Advanced Mathematics Modules (weight 2)",
+        "weightPercent": 20
+      },
+      {
+        "criterion": "Bachelor's GPA (weight 1)",
+        "weightPercent": 10
+      },
+      {
+        "criterion": "Artificial Intelligence Modules (weight 1)",
+        "weightPercent": 10
+      },
+      {
+        "criterion": "Academic Manuscripts — Thesis & Publications (weight 1)",
+        "weightPercent": 10
+      },
+      {
+        "criterion": "Subject-Related Teaching Experience (weight 1)",
+        "weightPercent": 10
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Bonn Institute of Computer Science — M.Sc. Computer Science Admission & Selection Rules (2026)",
+      "paragraphRef": "Formal Prerequisites (18 Math / 14 Theory / 18 Prog / 12-ECTS Solo Thesis / C1) & WS 2026/27 Selection Threshold (46 pts)",
+      "officialPdfUrl": "https://www.informatik.uni-bonn.de/en/studies/master-programs/application-for-the-masters-program",
+      "facultyEmail": "application@informatik.uni-bonn.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "uni-bonn-msc-ai",
+    "university": "University of Bonn",
+    "programName": "Artificial Intelligence",
+    "degreeType": "M.Sc.",
+    "city": "Bonn",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 335,
+    "isNoNc": false,
+    "portal": {
+      "name": "Bonn Institute of CS Direct Portal",
+      "url": "https://www.informatik.uni-bonn.de/en/studies/master-programs/application-for-the-masters-program",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "May 15",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct free application via Bonn's online portal (Winter intake only for 1st-year applicants; no uni-assist, no VPD). Separate application required if also applying to Bonn CS (contents sync automatically). Strictly rejects MOI."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Highly selective NC ranking across 8 weighted criteria (grades better than 2.5 only). Very tight non-EEA seat quota."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 95,
+      "moiAccepted": false,
+      "moiNote": "Verbatim warning under 'Not to be submitted!': 'Proof of the language of instruction in your previous degree program. It will not be accepted!' Requires IELTS ≥ 7.0 or TOEFL iBT ≥ 95."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 18,
+          "label": "Mathematical Foundations (Logic, Discrete, Linear Algebra, Analysis, Stochastics)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 14,
+          "label": "Algorithm Theory, Complexity Theory & Formal Languages (Excl. Programming/Thesis)",
+          "acceptStochastics": false
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 20,
+          "label": "Programming, Software Technology, Info Systems, AI & Graphics (≥ 20 ECTS)",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": []
+    },
+    "thesisRule": {
+      "min_thesis_ects": 12,
+      "solo_thesis_required": true,
+      "note": "Requires a solo scientific Bachelor's thesis worth ≥ 12 ECTS (≥ 750 lines of scientific prose excluding code/tables/bullets). Mere software design documentation is rejected."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Academic Manuscripts — Thesis & Publications (weight 3)",
+        "weightPercent": 21
+      },
+      {
+        "criterion": "Bachelor's GPA (weight 2)",
+        "weightPercent": 14
+      },
+      {
+        "criterion": "Additional Advanced Mathematics Modules (weight 2)",
+        "weightPercent": 14
+      },
+      {
+        "criterion": "Professional Software Development Experience (weight 2)",
+        "weightPercent": 14
+      },
+      {
+        "criterion": "Subject-Related Extracurriculars — Open Source / Hackathons (weight 2)",
+        "weightPercent": 14
+      },
+      {
+        "criterion": "Computer Graphics, Vision, Audio or Sensing Modules (weight 1)",
+        "weightPercent": 8
+      },
+      {
+        "criterion": "Artificial Intelligence Modules (weight 1)",
+        "weightPercent": 8
+      },
+      {
+        "criterion": "Subject-Related Teaching Experience (weight 1)",
+        "weightPercent": 7
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Bonn Institute of Computer Science — M.Sc. Artificial Intelligence Admission & Selection Rules (2026)",
+      "paragraphRef": "Formal Prerequisites (18 Math / 14 Theory / 20 Prog+AI / 12-ECTS Solo Thesis / C1) & AI Selection Weights",
+      "officialPdfUrl": "https://www.informatik.uni-bonn.de/en/studies/master-programs/application-for-the-masters-program",
+      "facultyEmail": "application@informatik.uni-bonn.de",
+      "lastVerifiedDate": "2026-11-23"
+    }
+  },
+  {
+    "id": "uni-tuebingen-msc-machine-learning",
+    "university": "University of Tübingen",
+    "programName": "Machine Learning",
+    "degreeType": "M.Sc.",
+    "city": "Tübingen",
+    "language": "English",
+    "tuitionPerSemesterEur": 1500,
+    "semesterContributionEur": 173,
+    "isNoNc": true,
+    "portal": {
+      "name": "Alma (Direct Tübingen Portal)",
+      "url": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/",
+      "isFreePortal": true,
+      "feeEur": 0,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "April 30",
+      "summerDeadlineNonEu": null,
+      "routingNotes": "Direct free application via Tübingen's Alma portal (no uni-assist, no VPD; Winter intake only, deadline April 30). NOTE: Baden-Württemberg charges €1,500/semester non-EU tuition in addition to the €173 semester contribution."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": 2.0,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "Strict minimum Bachelor grade of 2.0 or better on the German grading scale (hard threshold)."
+    },
+    "englishRule": {
+      "cefrLevel": "C1",
+      "minIelts": 7.0,
+      "minToeflIbt": 100,
+      "moiAccepted": false,
+      "moiNote": "Strictly requires TOEFL iBT ≥ 100, IELTS ≥ 7.0, CAE ≥ 180, German Abitur, or secondary qualification from UK/Ireland/USA/Canada/Australia/NZ. Indian MOI is not accepted."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": true,
+      "auflagen_allowed": false,
+      "max_auflagen_ects": 0,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 27,
+          "label": "Mathematics (1D/Multidimensional Analysis, Linear Algebra, Numerics or Stochastics — ≥ 27 ECTS)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "THEORETICAL_CS",
+          "minEcts": 6,
+          "label": "Algorithms and Data Structures (≥ 6 ECTS)",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "tuebingen-cs-18",
+          "label": "Computer Science Lectures (Programming, Algorithms & Data Structures ≥ 18 ECTS)",
+          "buckets": [
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 18
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS floor beyond a recognized CS/Math/Physics Bachelor's degree."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Open-Admission Eligibility Gate (Grade ≤ 2.0, ≥ 27 ECTS Math, ≥ 18 ECTS CS incl. 6 ECTS Algos, IELTS 7.0 / TOEFL 100)",
+        "weightPercent": 100,
+        "note": "Not admission-restricted (No NC), but strictly enforced 2.0 GPA & 27-ECTS Math cliff"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "University of Tübingen M.Sc. Machine Learning Admission Requirements",
+      "paragraphRef": "Requirements & Application (Grade ≤ 2.0, 27 ECTS Math, 18 ECTS CS / 6 ECTS Algos, TOEFL 100 / IELTS 7.0, April 30)",
+      "officialPdfUrl": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/",
+      "facultyEmail": "ml-master@informatik.uni-tuebingen.de",
+      "lastVerifiedDate": "2026-11-24"
+    }
+  },
+  {
+    "id": "btu-cottbus-msc-ai",
+    "university": "BTU Cottbus-Senftenberg",
+    "programName": "Artificial Intelligence",
+    "degreeType": "M.Sc.",
+    "city": "Cottbus",
+    "language": "English",
+    "tuitionPerSemesterEur": 0,
+    "semesterContributionEur": 392,
+    "isNoNc": true,
+    "portal": {
+      "name": "uni-assist",
+      "url": "https://www.b-tu.de/en/artificial-intelligence-ms/",
+      "isFreePortal": false,
+      "feeEur": 75,
+      "vpdRequired": false,
+      "apsRequired": true,
+      "winterDeadlineNonEu": "July 15",
+      "summerDeadlineNonEu": "January 15",
+      "routingNotes": "Non-EU applicants apply via uni-assist (€75 first application; Winter March 1–July 15, Summer Nov 1–Jan 15). €0 tuition (€392/sem semester contribution). APS certificate mandatory for Indian degrees."
+    },
+    "gradeRule": {
+      "maxGermanGradeCutoff": null,
+      "cutoffBehavior": "HARD_REJECT",
+      "note": "No hard GPA cutoff published; eligibility is based on curricular similarity to BTU's B.Sc. Artificial Intelligence (CS, Mathematics & Ethics)."
+    },
+    "englishRule": {
+      "cefrLevel": "B2",
+      "minIelts": 6.0,
+      "minToeflIbt": 79,
+      "moiAccepted": false,
+      "moiNote": "Verbatim rule: 'Only valid certificates will be recognized, \"medium of instruction certificates\" will not be accepted.' Requires IELTS ≥ 6.0 or TOEFL iBT ≥ 79."
+    },
+    "testRule": {
+      "greRequired": false,
+      "dmatAccepted": false,
+      "exemptBelowGermanGrade": null,
+      "note": "No GRE or dMAT required."
+    },
+    "bucketRules": {
+      "ectsConversionBasis": "STANDARD_240",
+      "exclude_thesis_and_internship_from_buckets": false,
+      "auflagen_allowed": true,
+      "max_auflagen_ects": 15,
+      "requiredBuckets": [
+        {
+          "bucket": "MATH",
+          "minEcts": 12,
+          "label": "Mathematics Foundations (comparable to BTU B.Sc. AI)",
+          "acceptStochastics": true
+        },
+        {
+          "bucket": "PROG_SE_AI_ML",
+          "minEcts": 18,
+          "label": "Computer Science, Programming & AI Foundations",
+          "acceptStochastics": false
+        }
+      ],
+      "combinedMinEcts": [
+        {
+          "id": "btu-ai-75",
+          "label": "Comparable Computer Science & Mathematics Coursework (≥ 75 ECTS)",
+          "buckets": [
+            "MATH",
+            "STOCHASTICS",
+            "THEORETICAL_CS",
+            "SYSTEMS_OS_DB_NET",
+            "ARCHITECTURE_HPC",
+            "PROG_SE_AI_ML"
+          ],
+          "minEcts": 75
+        }
+      ]
+    },
+    "thesisRule": {
+      "min_thesis_ects": 0,
+      "solo_thesis_required": false,
+      "note": "No separate standalone thesis-ECTS cliff beyond a recognized related Bachelor's degree."
+    },
+    "selectionWeights": [
+      {
+        "criterion": "Curricular Similarity to BTU B.Sc. Artificial Intelligence (CS, Math & Ethics) + B2 English",
+        "weightPercent": 100,
+        "note": "No NC — open admission for eligible graduates"
+      }
+    ],
+    "citation": {
+      "regulationTitle": "BTU Cottbus-Senftenberg M.Sc. Artificial Intelligence Admission Requirements",
+      "paragraphRef": "Admissions Requirements (Related CS/Math/Ethics Degree, Strict No-MOI Rule, IELTS 6.0 / TOEFL 79)",
+      "officialPdfUrl": "https://www.b-tu.de/en/artificial-intelligence-ms/",
+      "facultyEmail": "internationaladmission@b-tu.de",
+      "lastVerifiedDate": "2026-11-24"
+    }
+  }
+]

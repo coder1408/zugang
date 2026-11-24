@@ -1,0 +1,51 @@
+ Specific requirements
+
+In the following, the expected subject-specific entry-level skills for the M.Sc. Artificial Intelligence and Machine Learning program are described in detail.
+Theoretical Computer Science
+
+Applicants should be able to use mathematical notations and methods to substantiate concepts of computer science, especially for formal modelling and verification of software and hardware systems.
+
+The reference degree program at TU Darmstadt teaches these initial skills in the courses Automata, Formal Languages and Decidability; Modelling, Specification and Semantics; Propositional and Predicate Logic, among others.
+Applied Computer Science
+
+Applicants should be able to,
+
+    independently select the standard algorithms and data structures required for the solution from a problem description according to the functional and non-functional requirements or construct and assess new algorithms and data structures for solving the problem on the basis of known strategies, if necessary taking parallelism into account.
+    to combine individual components of a programming language independently and without an analogous example within the framework of a programming task into an overall solution.
+    solve programming tasks in different, also parallel, programming languages that follow different paradigms, have different application areas and are located on the whole range of abstraction levels.
+    ensure the quality of the created implementations through formalised test procedures and design methods.
+    apply the aforementioned knowledge in practically relevant areas of computer science themselves. In each case, non-functional aspects, in particular also the security of the IT systems created, should also be taken into account.
+
+These entry-level skills are acquired in the reference program at the TU Darmstadt in the following courses: Algorithms and Data Structures; Computer System Security; Computer Networks and Distributed Systems; introduction to Compiler Construction; Introduction to Artificial Intelligence; Functional and Object-oriented Programming Concepts; Formal Methods in Software Design; Information Management; Operating Systems; Parallel Programming; Probabilistic Methods of Computer Science; Scientific Computing; Software Engineering; Visual Computing.
+Technical Computer Science
+
+Applicants should have the ability to
+
+    independently combine the individual design principles and basic elements of digital circuits, as they are introduced separately one after the other in the lectures, into an overall solution within the framework of a hardware design task without an analogue example.
+    solve design tasks at different levels of abstraction and from different application areas by means of structured design methods in different description languages and using a spectrum of design tools and evaluate them with regard to suitable quality measures.
+    understand the interaction of computer, processor and microarchitectures and make appropriate implementation decisions from this for the system and application software level.
+
+Courses in which these entry-level skills are taught in the reference program at TU Darmstadt are Digital Technology and Computer Organisation.
+Artificial Intelligence and Machine Learning
+
+Applicants need the ability to
+
+    independently infer from the description of a Computer Science problem that Artificial Intelligence (AI) is required to solve it,
+    identify the required AI approaches, AI standard algorithms and AI representations according to the functional requirements,
+    apply individual design principles and basic methods from artificial intelligence
+    and independently combine them into an overall solution within the framework of an AI system design task without an analogue example.
+
+Solve design tasks in Data Science and Machine Learning at different levels of abstraction and from different areas of application by means of structured design methods in different description languages and using a spectrum of design tools and evaluate them with regard to suitable quality measures.
+
+These entry-level skills are taught in the following courses of the reference Bachelor´s program at TU Darmstadt: Introduction to Artificial Intelligence; Information Management; Probabilistic Methods in Computer Science.
+Notes about the application process
+
+Please note that the application process has several required steps:
+
+    You first need to create an account at the TUCaN application portal.
+    Follow the steps to select your desired study program.
+    Make sure you upload your ID (passport or similar).
+    Note that for international applications, you will need to submit your application once it is complete. Do this as soon as you are done, as the next step depends on it!
+    Once the application has been submitted online – but not before -, the required attachments (“Annex Computer Science” and “Annex Computer Science study courses”) will become available. Click on the “Print link”, or on the “Print” link under “My applications”, and then on “Application or Information”.
+    Fill out the forms appropriately.
+    Note that the application materials need to be submitted “by post” (as it probably says in the application portal). This means that a hard copy has to be sent by a postal or courier service to the address given on the application form. It is neither possible nor sufficient to submit these files electronically!
