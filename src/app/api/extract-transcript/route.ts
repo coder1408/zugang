@@ -7,7 +7,7 @@ import {
   type CourseItem,
   type ExtractedTranscriptResponse,
 } from "@/lib/schemas";
-import { extractClientIp, transcriptExtractLimiter } from "@/lib/rateLimit";
+import { checkTranscriptRateLimit, extractClientIp } from "@/lib/rateLimit";
 
 // Prevent Node IPv6 happy-eyeballs timeouts against OpenRouter/Cloudflare on IPv4-only Linux networks
 dns.setDefaultResultOrder("ipv4first");
@@ -391,13 +391,14 @@ async function extractViaGeminiDirect(
 
 export async function POST(req: NextRequest) {
   try {
-    // Per-IP daily rate limit guard to protect OpenRouter spend
+    // Per-IP daily rate limit guard (Upstash Redis in production, in-memory locally)
     const clientIp = extractClientIp(req.headers);
-    const rate = transcriptExtractLimiter.check(clientIp);
+    const rate = await checkTranscriptRateLimit(clientIp);
     const rateHeaders = {
       "X-RateLimit-Limit": String(rate.limit),
       "X-RateLimit-Remaining": String(rate.remaining),
       "X-RateLimit-Reset": String(Math.floor(rate.resetAtMs / 1000)),
+      "X-RateLimit-Store": rate.store,
     };
 
     if (!rate.allowed) {

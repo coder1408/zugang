@@ -207,7 +207,7 @@ export function Screen3Shortlist({
         </ul>
       )}
 
-      <div className="mt-12 flex items-center justify-between gap-6">
+      <div className="mt-12 flex flex-wrap items-center justify-between gap-6">
         <button
           type="button"
           onClick={onBackToRealityCheck}
@@ -215,9 +215,19 @@ export function Screen3Shortlist({
         >
           <span aria-hidden>←</span> Reality check
         </button>
-        <button type="button" onClick={onEditInputs} className="link text-sm text-ink">
-          Edit transcript
-        </button>
+        <div className="flex flex-wrap items-center gap-6 text-sm">
+          <a
+            href="https://forms.gle/e4WUEMbdVG2hr3hX9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link text-mute hover:text-ink"
+          >
+            Missing a university? Request it <span aria-hidden>↗</span>
+          </a>
+          <button type="button" onClick={onEditInputs} className="link text-ink">
+            Edit transcript
+          </button>
+        </div>
       </div>
 
       <ReceiptsDrawer

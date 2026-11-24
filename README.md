@@ -69,6 +69,8 @@ npm run build     # Verify production build
 | `GEMINI_API_KEY` | Alternative | — | Direct Google Gemini fallback if OpenRouter key is unset |
 | `GEMINI_MODEL` | No | `gemini-3.8-flash` | Model used with direct `@google/genai` SDK |
 | `EXTRACT_DAILY_LIMIT_PER_IP` | No | `5` | Max PDF extractions per client IP per 24h |
+| `UPSTASH_REDIS_REST_URL` | Recommended on Vercel | — | Upstash Redis REST URL for persistent rate limiting across cold starts |
+| `UPSTASH_REDIS_REST_TOKEN` | Recommended on Vercel | — | Upstash Redis REST token (also supports Vercel `KV_REST_API_*` vars) |
 
 ---
 

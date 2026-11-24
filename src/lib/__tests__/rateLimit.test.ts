@@ -1,5 +1,9 @@
-import { describe, it, expect } from "vitest";
-import { FixedWindowRateLimiter, extractClientIp } from "@/lib/rateLimit";
+import { describe, it, expect, vi } from "vitest";
+import {
+  FixedWindowRateLimiter,
+  createUpstashRateLimiter,
+  extractClientIp,
+} from "@/lib/rateLimit";
 
 describe("FixedWindowRateLimiter", () => {
   it("allows up to maxRequests per IP and blocks subsequent requests with retryAfterSeconds", () => {
@@ -42,5 +46,54 @@ describe("FixedWindowRateLimiter", () => {
     expect(extractClientIp(h2)).toBe("5.6.7.8");
 
     expect(extractClientIp(new Headers())).toBe("local-dev");
+  });
+});
+
+describe("Upstash Redis REST Rate Limiter", () => {
+  it("sets PEXPIRE on first request and blocks once count exceeds maxRequests", async () => {
+    let counter = 0;
+    let ttl = -1;
+
+    const mockFetch = vi.fn(async (_url: string | URL | Request, init?: RequestInit) => {
+      const commands = JSON.parse(String(init?.body)) as Array<Array<string | number>>;
+      const results = commands.map((cmd) => {
+        if (cmd[0] === "INCR") {
+          counter += 1;
+          return { result: counter };
+        }
+        if (cmd[0] === "PTTL") {
+          return { result: ttl };
+        }
+        if (cmd[0] === "PEXPIRE") {
+          ttl = Number(cmd[2]);
+          return { result: 1 };
+        }
+        return { result: null };
+      });
+      return new Response(JSON.stringify(results), { status: 200 });
+    });
+
+    const limiter = createUpstashRateLimiter({
+      url: "https://example.upstash.io",
+      token: "test-token",
+      maxRequests: 2,
+      windowMs: 60_000,
+      fetchImpl: mockFetch as unknown as typeof fetch,
+    });
+
+    const r1 = await limiter.check("203.0.113.5", 1_000_000);
+    expect(r1.allowed).toBe(true);
+    expect(r1.remaining).toBe(1);
+    expect(r1.store).toBe("upstash");
+
+    const r2 = await limiter.check("203.0.113.5", 1_001_000);
+    expect(r2.allowed).toBe(true);
+    expect(r2.remaining).toBe(0);
+
+    const r3 = await limiter.check("203.0.113.5", 1_002_000);
+    expect(r3.allowed).toBe(false);
+    expect(r3.remaining).toBe(0);
+    expect(r3.retryAfterSeconds).toBe(60);
+    expect(r3.store).toBe("upstash");
   });
 });

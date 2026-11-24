@@ -145,9 +145,19 @@ export function AuditWorkspace() {
       </main>
 
       <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-[1080px] flex-wrap justify-between gap-2 px-6 py-6 text-xs text-mute">
+        <div className="mx-auto flex max-w-[1080px] flex-wrap items-baseline justify-between gap-4 px-6 py-6 text-xs text-mute">
           <span>Rules sourced from official Zugangsordnungen. Always confirm with the faculty.</span>
-          <span className="num">v0.1</span>
+          <div className="flex items-baseline gap-6">
+            <a
+              href="https://forms.gle/e4WUEMbdVG2hr3hX9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link text-ink"
+            >
+              Request a university <span aria-hidden>↗</span>
+            </a>
+            <span className="num">v0.1</span>
+          </div>
         </div>
       </footer>
     </div>
