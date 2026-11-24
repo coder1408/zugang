@@ -109,9 +109,10 @@ export function Screen2RealityCheck({
             />
           </div>
           <p className="mt-8 max-w-md text-sm leading-relaxed text-ink-2">
-            Most faculties apply the four-year basis to an H+ Indian B.Tech. A stricter
-            reader may benchmark against a 180-ECTS German bachelor&rsquo;s. Your CSV export
-            carries both.
+            Proportional Bologna estimate (60 ECTS per full-time year) — an upper-bound
+            pre-filter, not a substitute for a faculty&rsquo;s module-handbook syllabus
+            audit. Most faculties apply the four-year basis to an H+ Indian B.Tech.; a
+            stricter reader may cap at 180 ECTS. Your CSV export carries both.
           </p>
         </div>
 

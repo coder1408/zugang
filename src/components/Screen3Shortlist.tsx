@@ -89,10 +89,12 @@ export function Screen3Shortlist({
     <div>
       <PageIntro step="03 — Shortlist" title={`${auditResults.length} public programmes, audited.`}>
         <p>
-          No match scores. Open a programme to see the arithmetic behind its verdict, the
-          application route, and the paragraph of the regulation it rests on.
+          No match scores. This is a pre-filter using proportional ECTS estimates
+          (60 ECTS/year) to catch hard disqualifications before you pay application fees —
+          syllabus depth is always verified by the faculty&rsquo;s examination board.
         </p>
         <p className="mt-3 text-sm text-mute">
+          Open a programme for the arithmetic, application route, and regulation paragraph.
           We take no commission from universities, agents or consultancies.
         </p>
       </PageIntro>

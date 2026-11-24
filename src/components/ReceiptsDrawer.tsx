@@ -158,7 +158,7 @@ export function ReceiptsDrawer({ profile, audit, onClose }: ReceiptsDrawerProps)
 
           <Block
             title="Credit buckets"
-            aside={`${bucketSolve.ectsMultiplierUsed.toFixed(3)} ECTS per credit · no course counted twice`}
+            aside={`${bucketSolve.ectsMultiplierUsed.toFixed(3)} ECTS/cr (proportional) · no course counted twice`}
           >
             <div>
               {bucketSolve.perBucket.map((b) => (
